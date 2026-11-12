@@ -1,0 +1,1233 @@
+number,kind,status,type,category,created,title
+1,EIP,Living,Meta,,2015-10-27,EIP Purpose and Guidelines
+2,EIP,Final,Standards Track,Core,2015-11-15,Homestead Hard-fork Changes
+3,EIP,Withdrawn,Standards Track,Core,2015-11-19,Addition of CALLDEPTH opcode
+4,EIP,Final,Meta,,2015-11-17,EIP Classification
+5,EIP,Final,Standards Track,Core,2015-11-22,Gas Usage for `RETURN` and `CALL*`
+6,EIP,Final,Standards Track,Interface,2015-11-22,Renaming SUICIDE opcode
+7,EIP,Final,Standards Track,Core,2015-11-15,DELEGATECALL
+8,EIP,Final,Standards Track,Networking,2015-12-18,devp2p Forward Compatibility Requirements for Homestead
+20,ERC,Final,Standards Track,ERC,2015-11-19,Token Standard
+55,ERC,Final,Standards Track,ERC,2016-01-14,Mixed-case checksum address encoding
+67,ERC,Withdrawn,Standards Track,ERC,2016-02-17,"URI Scheme with Metadata, Value and Bytecode"
+86,EIP,Stagnant,Standards Track,Core,2017-02-10,Abstraction of transaction origin and signature
+100,EIP,Final,Standards Track,Core,2016-04-28,Change difficulty adjustment to target mean block time including uncles
+101,EIP,Stagnant,Standards Track,Core,2015-11-15,Serenity Currency and Crypto Abstraction
+107,EIP,Stagnant,Standards Track,Interface,2016-06-05,"safe ""eth_sendTransaction"" authorization via html popup"
+137,ERC,Final,Standards Track,ERC,2016-04-04,Ethereum Domain Name Service - Specification
+140,EIP,Final,Standards Track,Core,2017-02-06,REVERT instruction
+141,EIP,Final,Standards Track,Core,2017-02-09,Designated invalid EVM instruction
+145,EIP,Final,Standards Track,Core,2017-02-13,Bitwise shifting instructions in EVM
+150,EIP,Final,Standards Track,Core,2016-09-24,Gas cost changes for IO-heavy operations
+152,EIP,Final,Standards Track,Core,2016-10-04,Add BLAKE2 compression function `F` precompile
+155,EIP,Final,Standards Track,Core,2016-10-14,Simple replay attack protection
+158,EIP,Final,Standards Track,Core,2016-10-16,State clearing
+160,EIP,Final,Standards Track,Core,2016-10-20,EXP cost increase
+161,EIP,Final,Standards Track,Core,2016-10-24,State trie clearing (invariant-preserving alternative)
+162,ERC,Final,Standards Track,ERC,2016-10-25,Initial ENS Hash Registrar
+165,ERC,Final,Standards Track,ERC,2018-01-23,Standard Interface Detection
+170,EIP,Final,Standards Track,Core,2016-11-04,Contract code size limit
+173,ERC,Final,Standards Track,ERC,2018-06-07,Contract Ownership Standard
+181,ERC,Final,Standards Track,ERC,2016-12-01,ENS support for reverse resolution of Ethereum addresses
+190,ERC,Final,Standards Track,ERC,2017-01-10,Ethereum Smart Contract Packaging Standard
+191,ERC,Final,Standards Track,ERC,2016-01-20,Signed Data Standard
+196,EIP,Final,Standards Track,Core,2017-02-02,Precompiled contracts for addition and scalar multiplication on the elliptic curve alt_bn128
+197,EIP,Final,Standards Track,Core,2017-02-06,Precompiled contracts for optimal ate pairing check on the elliptic curve alt_bn128
+198,EIP,Final,Standards Track,Core,2017-01-30,Big integer modular exponentiation
+205,ERC,Stagnant,Standards Track,ERC,2017-02-06,ENS support for contract ABIs
+210,EIP,Stagnant,Standards Track,Core,2017-02-10,Blockhash refactoring
+211,EIP,Final,Standards Track,Core,2017-02-13,"""New opcodes: RETURNDATASIZE and RETURNDATACOPY"""
+214,EIP,Final,Standards Track,Core,2017-02-13,New opcode STATICCALL
+223,ERC,Final,Standards Track,ERC,2017-05-03,Token with transaction handling model
+225,EIP,Final,Standards Track,Core,2017-03-06,Clique proof-of-authority consensus protocol
+233,EIP,Stagnant,Meta,,2017-03-23,Formal process of hard forks
+234,EIP,Final,Standards Track,Interface,2017-03-24,Add `blockHash` to JSON-RPC filter options.
+600,ERC,Final,Standards Track,ERC,2017-04-13,Ethereum purpose allocation for Deterministic Wallets
+601,ERC,Final,Standards Track,ERC,2017-04-13,Ethereum hierarchy for deterministic wallets
+606,EIP,Final,Meta,,2017-04-23,"""Hardfork Meta: Homestead"""
+607,EIP,Final,Meta,,2017-04-23,"""Hardfork Meta: Spurious Dragon"""
+608,EIP,Final,Meta,,2017-04-23,"""Hardfork Meta: Tangerine Whistle"""
+609,EIP,Final,Meta,,2017-04-23,"""Hardfork Meta: Byzantium"""
+615,EIP,Stagnant,Standards Track,Core,2016-12-10,Subroutines and Static Jumps for the EVM
+616,EIP,Stagnant,Standards Track,Core,2017-04-25,SIMD Operations for the EVM
+627,EIP,Final,Standards Track,Networking,2017-05-05,Whisper Specification
+634,ERC,Stagnant,Standards Track,ERC,2017-05-17,Storage of text records in ENS
+649,EIP,Final,Standards Track,Core,2017-06-21,Metropolis Difficulty Bomb Delay and Block Reward Reduction
+658,EIP,Final,Standards Track,Core,2017-06-30,Embedding transaction status code in receipts
+663,EIP,Stagnant,Standards Track,Core,2017-07-03,"SWAPN, DUPN and EXCHANGE instructions"
+665,EIP,Stagnant,Standards Track,Core,2018-03-25,Add precompiled contract for Ed25519 signature verification
+681,ERC,Final,Standards Track,ERC,2017-08-01,URL Format for Transaction Requests
+684,EIP,Final,Standards Track,Core,2023-03-20,Revert creation in case of collision
+689,EIP,Stagnant,Standards Track,Core,2017-08-15,Address Collision of Contract Address Causes Exceptional Halt
+695,EIP,Final,Standards Track,Interface,2017-08-21,Create `eth_chainId` method for JSON-RPC
+698,EIP,Stagnant,Standards Track,Core,2017-08-28,OPCODE 0x46 BLOCKREWARD
+706,EIP,Final,Standards Track,Networking,2017-09-07,DEVp2p snappy compression
+712,EIP,Final,Standards Track,Interface,2017-09-12,Typed structured data hashing and signing
+721,ERC,Final,Standards Track,ERC,2018-01-24,Non-Fungible Token Standard
+725,ERC,Draft,Standards Track,ERC,2017-10-02,General data key/value store and execution
+747,EIP,Final,Standards Track,Interface,2018-08-13,wallet_watchAsset RPC Method
+758,EIP,Stagnant,Standards Track,Interface,2017-11-09,Subscriptions and filters for completed transactions
+777,ERC,Final,Standards Track,ERC,2017-11-20,Token Standard
+778,EIP,Final,Standards Track,Networking,2017-11-23,Ethereum Node Records (ENR)
+779,EIP,Final,Meta,,2017-11-26,"""Hardfork Meta: DAO Fork"""
+801,ERC,Stagnant,Standards Track,ERC,2017-12-16,Canary Standard
+820,ERC,Final,Standards Track,ERC,2018-01-05,Pseudo-introspection Registry Contract
+823,ERC,Stagnant,Standards Track,ERC,2018-01-06,Token Exchange Standard
+831,ERC,Stagnant,Standards Track,ERC,2018-01-15,URI Format for Ethereum
+838,ERC,Draft,Standards Track,ERC,2020-08-20,ABI specification for REVERT reason string
+858,EIP,Stagnant,Standards Track,Core,2018-01-29,Reduce block reward and delay difficulty bomb
+867,EIP,Stagnant,Meta,,2018-02-02,Standardized Ethereum Recovery Proposals
+868,EIP,Final,Standards Track,Networking,2018-02-02,Node Discovery v4 ENR Extension
+875,ERC,Withdrawn,Standards Track,ERC,2018-02-08,Simpler NFT standard with batching and native atomic swaps
+884,ERC,Stagnant,Standards Track,ERC,2018-02-14,DGCL Token
+897,ERC,Stagnant,Standards Track,ERC,2018-02-21,DelegateProxy
+900,ERC,Stagnant,Standards Track,ERC,2018-02-22,Simple Staking Interface
+902,ERC,Stagnant,Standards Track,ERC,2018-02-14,Token Validation
+908,EIP,Withdrawn,Standards Track,Core,2018-03-01,Reward clients for a sustainable network
+918,ERC,Stagnant,Standards Track,ERC,2018-03-07,Mineable Token Standard
+926,ERC,Stagnant,Standards Track,ERC,2018-03-12,Address metadata registry
+927,ERC,Stagnant,Standards Track,ERC,2018-03-12,Generalised authorisations
+969,EIP,Stagnant,Standards Track,Core,2018-04-03,Modifications to ethash to invalidate existing dedicated hardware implementations
+998,ERC,Draft,Standards Track,ERC,2018-07-07,Composable Non-Fungible Token
+999,EIP,Withdrawn,Standards Track,Core,2018-04-04,Restore Contract Code at 0x863DF6BFa4469f3ead0bE8f9F2AAE51c91A907b4
+1010,EIP,Stagnant,Standards Track,Core,2018-04-18,Uniformity Between 0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B and 0x15E55EF43efA8348dDaeAa455F16C43B64917e3c
+1011,EIP,Stagnant,Standards Track,Core,2018-04-20,Hybrid Casper FFG
+1013,EIP,Final,Meta,,2018-04-20,"""Hardfork Meta: Constantinople"""
+1014,EIP,Final,Standards Track,Core,2018-04-20,Skinny CREATE2
+1015,EIP,Stagnant,Standards Track,Core,2018-04-20,Configurable On Chain Issuance
+1046,ERC,Final,Standards Track,ERC,2018-04-13,tokenURI Interoperability
+1051,EIP,Stagnant,Standards Track,Core,2018-05-02,Overflow checking for the EVM
+1052,EIP,Final,Standards Track,Core,2018-05-02,EXTCODEHASH opcode
+1056,ERC,Stagnant,Standards Track,ERC,2018-05-03,Ethereum Lightweight Identity
+1057,EIP,Stagnant,Standards Track,Core,2018-05-02,"ProgPoW, a Programmatic Proof-of-Work"
+1062,ERC,Stagnant,Standards Track,ERC,2018-05-02,Formalize IPFS hash into ENS(Ethereum Name Service) resolver
+1066,ERC,Stagnant,Standards Track,ERC,2018-05-05,Status Codes
+1077,ERC,Stagnant,Standards Track,ERC,2018-05-04,Gas relay for contract calls
+1078,ERC,Stagnant,Standards Track,ERC,2018-05-04,Universal login / signup using ENS subdomains
+1080,ERC,Stagnant,Standards Track,ERC,2018-05-02,Recoverable Token
+1081,ERC,Stagnant,Standards Track,ERC,2018-05-14,Standard Bounties
+1087,EIP,Stagnant,Standards Track,Core,2018-05-17,Net gas metering for SSTORE operations
+1102,EIP,Stagnant,Standards Track,Interface,2018-05-04,Opt-in account exposure
+1108,EIP,Final,Standards Track,Core,2018-05-21,Reduce alt_bn128 precompile gas costs
+1109,EIP,Stagnant,Standards Track,Core,2018-05-22,PRECOMPILEDCALL opcode (Remove CALL costs for precompiled contracts)
+1123,ERC,Withdrawn,Standards Track,ERC,2018-06-01,Revised Ethereum Smart Contract Packaging Standard
+1129,ERC,Stagnant,Standards Track,ERC,2018-05-31,Standardised DAPP announcements
+1132,ERC,Stagnant,Standards Track,ERC,2018-06-03,Extending ERC20 with token locking capability
+1153,EIP,Final,Standards Track,Core,2018-06-15,Transient storage opcodes
+1154,ERC,Withdrawn,Standards Track,ERC,2018-06-13,Oracle Interface
+1155,ERC,Final,Standards Track,ERC,2018-06-17,Multi Token Standard
+1167,ERC,Final,Standards Track,ERC,2018-06-22,Minimal Proxy Contract
+1175,ERC,Stagnant,Standards Track,ERC,2018-06-21,Wallet & shop standard for all tokens (erc20)
+1178,ERC,Stagnant,Standards Track,ERC,2018-06-22,Multi-class Token Standard
+1185,ERC,Review,Standards Track,ERC,2018-06-26,Storage of DNS Records in ENS
+1186,EIP,Stagnant,Standards Track,Interface,2018-06-24,RPC-Method to get Merkle Proofs - eth_getProof
+1191,ERC,Last Call,Standards Track,ERC,2018-03-18,Add chain id to mixed-case checksum address encoding
+1193,EIP,Final,Standards Track,Interface,2018-06-30,Ethereum Provider JavaScript API
+1202,ERC,Review,Standards Track,ERC,2018-07-08,Voting Interface
+1203,ERC,Stagnant,Standards Track,ERC,2018-07-01,ERC-1203 Multi-Class Token Standard (ERC-20 Extension)
+1207,ERC,Stagnant,Standards Track,ERC,2018-07-10,DAuth Access Delegation Standard
+1227,EIP,Stagnant,Standards Track,Core,2018-07-18,Defuse Difficulty Bomb and Reset Block Reward
+1234,EIP,Final,Standards Track,Core,2018-07-19,Constantinople Difficulty Bomb Delay and Block Reward Adjustment
+1240,EIP,Withdrawn,Standards Track,Core,2018-07-21,Remove Difficulty Bomb
+1261,ERC,Stagnant,Standards Track,ERC,2018-07-14,Membership Verification Token (MVT)
+1271,ERC,Final,Standards Track,ERC,2018-07-25,Standard Signature Validation Method for Contracts
+1276,EIP,Stagnant,Standards Track,Core,2018-07-31,Eliminate Difficulty Bomb and Adjust Block Reward on Constantinople Shift
+1283,EIP,Final,Standards Track,Core,2018-08-01,Net gas metering for SSTORE without dirty maps
+1285,EIP,Stagnant,Standards Track,Core,2018-08-01,Increase Gcallstipend gas in the CALL opcode
+1295,EIP,Stagnant,Standards Track,Core,2018-08-05,Modify Ethereum PoW Incentive Structure and Delay Difficulty Bomb
+1319,ERC,Stagnant,Standards Track,ERC,2018-08-13,Smart Contract Package Registry Interface
+1328,ERC,Final,Standards Track,ERC,2018-08-15,WalletConnect URI Format
+1337,ERC,Stagnant,Standards Track,ERC,2018-08-01,Subscriptions on the blockchain
+1344,EIP,Final,Standards Track,Core,2018-08-22,ChainID opcode
+1352,EIP,Stagnant,Standards Track,Core,2018-07-27,Specify restricted address range for precompiles/system contracts
+1355,EIP,Withdrawn,Standards Track,Core,2018-08-26,Ethash 1a
+1363,ERC,Final,Standards Track,ERC,2018-08-30,Payable Token
+1380,EIP,Stagnant,Standards Track,Core,2018-08-31,Reduced gas cost for call to self
+1386,ERC,Stagnant,Standards Track,ERC,2018-09-08,Attestation management contract
+1387,ERC,Stagnant,Standards Track,ERC,2018-09-08,Merkle Tree Attestations with Privacy enabled
+1388,ERC,Stagnant,Standards Track,ERC,2018-09-08,Attestation Issuers Management List
+1417,ERC,Stagnant,Standards Track,ERC,2018-09-16,Poll Standard
+1418,EIP,Stagnant,Standards Track,Core,2018-09-16,Blockchain Storage Rent Payment
+1438,ERC,Stagnant,Standards Track,ERC,2018-09-21,dApp Components (avatar) & Universal Wallet
+1444,ERC,Stagnant,Standards Track,ERC,2018-09-23,Localized Messaging with Signal-to-Text
+1450,ERC,Final,Standards Track,ERC,2018-09-25,RTA-Controlled Security Token
+1459,EIP,Stagnant,Standards Track,Networking,2018-09-26,Node Discovery via DNS
+1462,ERC,Stagnant,Standards Track,ERC,2018-10-01,Base Security Token
+1470,EIP,Stagnant,Informational,,2018-09-18,Smart Contract Weakness Classification (SWC)
+1474,EIP,Stagnant,Standards Track,Interface,2018-10-02,Remote procedure call specification
+1482,EIP,Stagnant,Standards Track,Core,2018-10-09,Define a maximum block timestamp drift
+1484,ERC,Stagnant,Standards Track,ERC,2018-10-12,Digital Identity Aggregator
+1485,EIP,Stagnant,Standards Track,Core,2018-11-01,TEthashV1
+1491,ERC,Stagnant,Standards Track,ERC,2018-10-12,Human Cost Accounting Standard (Like Gas but for humans)
+1504,ERC,Stagnant,Standards Track,ERC,2018-10-17,Upgradable Smart Contract
+1523,ERC,Stagnant,Standards Track,ERC,2018-10-10,Standard for Insurance Policies as ERC-721 Non Fungible Tokens
+1538,ERC,Withdrawn,Standards Track,ERC,2018-10-31,Transparent Contract Standard
+1559,EIP,Final,Standards Track,Core,2019-04-13,Fee market change for ETH 1.0 chain
+1571,EIP,Stagnant,Standards Track,Interface,2018-11-09,EthereumStratum/2.0.0
+1577,ERC,Stagnant,Standards Track,ERC,2018-11-13,contenthash field for ENS
+1581,ERC,Stagnant,Standards Track,ERC,2018-11-13,Non-wallet usage of keys derived from BIP-32 trees
+1588,EIP,Stagnant,Meta,,2018-11-16,"""Hardfork Meta: Ethereum ProgPoW"""
+1592,ERC,Stagnant,Standards Track,ERC,2018-11-09,Address and ERC20-compliant transfer rules
+1613,ERC,Draft,Standards Track,ERC,2018-11-18,Gas Stations Network
+1616,ERC,Stagnant,Standards Track,ERC,2018-11-23,Attribute Registry Standard
+1620,ERC,Stagnant,Standards Track,ERC,2018-11-24,Money Streaming
+1633,ERC,Stagnant,Standards Track,ERC,2018-11-18,Re-Fungible Token Standard (RFT)
+1679,EIP,Final,Meta,,2019-01-04,"""Hardfork Meta: Istanbul"""
+1681,EIP,Stagnant,Standards Track,Core,2019-01-08,Temporal Replay Protection
+1682,EIP,Withdrawn,Standards Track,Core,2018-11-10,Storage Rent
+1702,EIP,Stagnant,Standards Track,Core,2017-12-30,Generalized Account Versioning Scheme
+1706,EIP,Withdrawn,Standards Track,Core,2019-01-15,Disable SSTORE with gasleft lower than call stipend
+1710,ERC,Stagnant,Standards Track,ERC,2019-01-13,URL Format for Web3 Browsers
+1716,EIP,Final,Meta,,2019-01-21,"""Hardfork Meta: Petersburg"""
+1753,ERC,Stagnant,Standards Track,ERC,2019-02-06,Smart Contract Interface for Licences
+1761,ERC,Stagnant,Standards Track,ERC,2019-02-18,Scoped Approval Interface
+1767,EIP,Stagnant,Standards Track,Interface,2019-02-14,GraphQL interface to Ethereum node data
+1775,ERC,Stagnant,Standards Track,ERC,2019-02-20,"App Keys, application specific wallet accounts"
+1803,EIP,Stagnant,Standards Track,Interface,2017-07-28,Rename opcodes for clarity
+1812,ERC,Stagnant,Standards Track,ERC,2019-03-03,Ethereum Verifiable Claims
+1820,ERC,Final,Standards Track,ERC,2019-03-04,Pseudo-introspection Registry Contract
+1822,ERC,Stagnant,Standards Track,ERC,2019-03-04,Universal Upgradeable Proxy Standard (UUPS)
+1829,EIP,Stagnant,Standards Track,Core,2019-03-06,Precompile for Elliptic Curve Linear Combinations
+1844,ERC,Stagnant,Standards Track,ERC,2019-03-15,ENS Interface Discovery
+1872,EIP,Stagnant,Meta,,2018-03-25,Ethereum Network Upgrade Windows
+1884,EIP,Final,Standards Track,Core,2019-03-28,Repricing for trie-size-dependent opcodes
+1890,EIP,Withdrawn,Standards Track,Core,2019-03-31,Commitment to Sustainable Ecosystem Funding
+1895,EIP,Stagnant,Standards Track,Core,2018-03-31,Support for an Elliptic Curve Cycle
+1898,EIP,Final,Standards Track,Interface,2019-04-01,Add `blockHash` to defaultBlock methods
+1900,ERC,Stagnant,Standards Track,ERC,2019-03-28,dType - Decentralized Type System for EVM
+1901,EIP,Stagnant,Standards Track,Interface,2019-02-25,Add OpenRPC Service Discovery To JSON-RPC Services
+1921,ERC,Stagnant,Standards Track,ERC,2019-04-06,dType Functions Extension
+1922,ERC,Stagnant,Standards Track,ERC,2018-09-14,zk-SNARK Verifier Standard
+1923,ERC,Stagnant,Standards Track,ERC,2018-12-22,zk-SNARK Verifier Registry Standard
+1930,EIP,Stagnant,Standards Track,Core,2019-04-10,CALLs with strict gas semantic. Revert if not enough gas available.
+1948,ERC,Stagnant,Standards Track,ERC,2019-04-18,Non-fungible Data Token
+1959,EIP,Stagnant,Standards Track,Core,2019-04-20,New Opcode to check if a chainID is part of the history of chainIDs
+1962,EIP,Stagnant,Standards Track,Core,2019-04-22,EC arithmetic and pairings with runtime definitions
+1965,EIP,Stagnant,Standards Track,Core,2019-04-20,Method to check if a chainID is valid at a specific block Number
+1967,ERC,Final,Standards Track,ERC,2019-04-24,Proxy Storage Slots
+1973,ERC,Stagnant,Standards Track,ERC,2019-04-01,Scalable Rewards
+1985,EIP,Stagnant,Standards Track,Core,2018-08-01,Sane limits for certain EVM parameters
+1996,ERC,Stagnant,Standards Track,ERC,2019-04-10,Holdable Token
+2003,EIP,Stagnant,Standards Track,Interface,2019-05-09,EVMC modules for implementations of precompiled contracts
+2009,ERC,Stagnant,Standards Track,ERC,2019-05-09,Compliance Service
+2014,EIP,Stagnant,Standards Track,Core,2019-05-10,Extended State Oracle
+2015,EIP,Stagnant,Standards Track,Interface,2019-05-12,wallet_updateEthereumChain RPC Method
+2018,ERC,Stagnant,Standards Track,ERC,2019-04-30,Clearable Token
+2019,ERC,Stagnant,Standards Track,ERC,2019-05-10,Fundable Token
+2020,ERC,Stagnant,Standards Track,ERC,2019-05-10,E-Money Standard Token
+2021,ERC,Stagnant,Standards Track,ERC,2019-05-10,Payoutable Token
+2025,EIP,Withdrawn,Standards Track,Core,2019-04-20,Block Rewards Proposal for funding Eth1.x
+2026,EIP,Stagnant,Standards Track,Core,2019-05-14,State Rent H - Fixed Prepayment for accounts
+2027,EIP,Stagnant,Standards Track,Core,2019-05-14,State Rent C - Net contract size accounting
+2028,EIP,Final,Standards Track,Core,2019-05-03,Transaction data gas cost reduction
+2029,EIP,Stagnant,Standards Track,Core,2019-05-15,State Rent A - State counters contract
+2031,EIP,Stagnant,Standards Track,Core,2019-05-15,State Rent B - Net transaction counter
+2035,EIP,Stagnant,Standards Track,Core,2019-05-16,Stateless Clients - Repricing SLOAD and SSTORE to pay for block proofs
+2045,EIP,Stagnant,Standards Track,Core,2019-05-17,Particle gas costs for EVM opcodes
+2046,EIP,Stagnant,Standards Track,Core,2019-05-17,Reduced gas cost for static calls made to precompiles
+2069,EIP,Stagnant,Informational,,2017-02-11,Recommendation for using YAML ABI in ERCs/EIPs
+2070,EIP,Withdrawn,Meta,,2019-05-20,"""Hardfork Meta: Berlin"""
+2098,ERC,Final,Standards Track,ERC,2019-03-14,Compact Signature Representation
+2124,EIP,Final,Standards Track,Networking,2019-05-03,Fork identifier for chain compatibility checks
+2135,ERC,Final,Standards Track,ERC,2019-06-23,"Consumable Interface (Tickets, etc)"
+2157,ERC,Stagnant,Standards Track,ERC,2019-06-28,dType Storage Extension - Decentralized Type System for EVM
+2159,EIP,Final,Standards Track,Interface,2019-07-01,Common Prometheus Metrics Names for Clients
+2193,ERC,Stagnant,Standards Track,ERC,2019-07-16,dType Alias Extension - Decentralized Type System
+2200,EIP,Final,Standards Track,Core,2019-07-18,Structured Definitions for Net Gas Metering
+2228,EIP,Final,Informational,,2019-08-04,Canonicalize the name of network ID 1 and chain ID 1
+2242,EIP,Stagnant,Standards Track,Core,2019-08-16,Transaction Postdata
+2255,EIP,Final,Standards Track,Interface,2019-08-22,Wallet Permissions System
+2256,EIP,Stagnant,Standards Track,Interface,2019-08-29,wallet_getOwnedAssets JSON-RPC Method
+2266,ERC,Last Call,Standards Track,ERC,2019-08-17,Atomic Swap-based American Call Option Contract Standard
+2294,EIP,Stagnant,Informational,,2019-09-19,Explicit bound to Chain ID size
+2304,ERC,Stagnant,Standards Track,ERC,2019-09-09,Multichain address resolution for ENS
+2309,ERC,Final,Standards Track,ERC,2019-10-08,ERC-721 Consecutive Transfer Extension
+2315,EIP,Withdrawn,Standards Track,Core,2019-10-17,Simple Subroutines for the EVM
+2327,EIP,Stagnant,Standards Track,Core,2019-10-28,BEGINDATA opcode
+2330,EIP,Stagnant,Standards Track,Core,2019-10-29,EXTSLOAD opcode
+2333,ERC,Review,Standards Track,ERC,2019-09-30,BLS12-381 Key Generation
+2334,ERC,Review,Standards Track,ERC,2019-09-30,BLS12-381 Deterministic Account Hierarchy
+2335,ERC,Review,Standards Track,ERC,2019-09-30,BLS12-381 Keystore
+2364,EIP,Final,Standards Track,Networking,2019-11-08,"""eth/64: forkid-extended protocol handshake"""
+2378,EIP,Stagnant,Meta,,2019-11-13,EIPs Eligible for Inclusion
+2384,EIP,Final,Standards Track,Core,2019-11-20,Muir Glacier Difficulty Bomb Delay
+2386,ERC,Stagnant,Standards Track,ERC,2019-11-21,Ethereum 2 Hierarchical Deterministic Walletstore
+2387,EIP,Final,Meta,,2019-11-22,"""Hardfork Meta: Muir Glacier"""
+2390,ERC,Stagnant,Standards Track,ERC,2019-11-15,Geo-ENS
+2400,ERC,Stagnant,Standards Track,ERC,2019-11-05,Transaction Receipt URI
+2458,EIP,Withdrawn,Informational,,2020-01-06,Updates and Updated-by Header
+2464,EIP,Final,Standards Track,Networking,2020-01-13,"""eth/65: transaction announcements and retrievals"""
+2470,ERC,Stagnant,Standards Track,ERC,2020-01-15,Singleton Factory
+2474,EIP,Stagnant,Standards Track,Core,2020-01-19,Coinbase calls
+2477,ERC,Stagnant,Standards Track,ERC,2020-01-02,Token Metadata Integrity
+2481,EIP,Final,Standards Track,Networking,2020-01-17,eth/66 request identifier
+2488,EIP,Stagnant,Standards Track,Core,2019-12-20,Deprecate the CALLCODE opcode
+2494,ERC,Stagnant,Standards Track,ERC,2020-01-29,Baby Jubjub Elliptic Curve
+2515,EIP,Stagnant,Standards Track,Core,2020-02-10,Implement Difficulty Freeze
+2520,ERC,Stagnant,Standards Track,ERC,2020-02-18,Multiple contenthash records for ENS
+2525,ERC,Stagnant,Standards Track,ERC,2020-02-19,ENSLogin
+2535,ERC,Final,Standards Track,ERC,2020-02-22,"Diamonds, Multi-Facet Proxy"
+2537,EIP,Final,Standards Track,Core,2020-02-21,Precompile for BLS12-381 curve operations
+2539,EIP,Stagnant,Standards Track,Core,2020-02-26,BLS12-377 curve operations
+2542,EIP,Withdrawn,Standards Track,Core,2020-02-29,New opcodes TXGASLIMIT and CALLGASLIMIT
+2544,ERC,Stagnant,Standards Track,ERC,2020-02-28,ENS Wildcard Resolution
+2565,EIP,Final,Standards Track,Core,2020-03-20,ModExp Gas Cost
+2566,EIP,Stagnant,Standards Track,Interface,2020-03-23,Human Readable Parameters for Contract Function Execution
+2569,ERC,Stagnant,Standards Track,ERC,2020-03-28,Saving and Displaying Image Onchain for Universal Tokens
+2583,EIP,Stagnant,Standards Track,Core,2020-02-21,Penalty for account trie misses
+2584,EIP,Stagnant,Standards Track,Core,2020-04-03,Trie format transition with overlay trees
+2593,EIP,Stagnant,Standards Track,Core,2020-03-13,Escalator fee market change for ETH 1.0 chain
+2612,ERC,Final,Standards Track,ERC,2020-04-13,Permit Extension for EIP-20 Signed Approvals
+2615,ERC,Stagnant,Standards Track,ERC,2020-04-25,Non-Fungible Token with mortgage and rental functions
+2645,ERC,Stagnant,Standards Track,ERC,2020-05-13,Hierarchical Deterministic Wallet for Layer-2
+2657,EIP,Stagnant,Meta,,2020-04-19,Ephemeral Testnet Yolo
+2666,EIP,Stagnant,Standards Track,Core,2020-05-22,Repricing of precompiles and Keccak256 function
+2677,EIP,Withdrawn,Standards Track,Core,2020-05-18,Limit size of `initcode`
+2678,ERC,Final,Standards Track,ERC,2020-05-26,Revised Ethereum Smart Contract Packaging Standard (EthPM v3)
+2680,ERC,Stagnant,Standards Track,ERC,2020-05-29,Ethereum 2 wallet layout
+2681,EIP,Final,Standards Track,Core,2020-04-25,Limit account nonce to 2^64-1
+2696,EIP,Final,Standards Track,Interface,2020-06-04,JavaScript `request` method RPC transport
+2700,EIP,Final,Standards Track,Interface,2020-06-05,JavaScript Provider Event Emitter
+2711,EIP,Withdrawn,Standards Track,Core,2020-06-11,"Sponsored, expiring and batch transactions."
+2718,EIP,Final,Standards Track,Core,2020-06-13,Typed Transaction Envelope
+2733,EIP,Withdrawn,Standards Track,Core,2020-06-16,Transaction Package
+2746,ERC,Stagnant,Standards Track,ERC,2020-06-20,Rules Engine Standard
+2767,ERC,Stagnant,Standards Track,ERC,2020-07-04,Contract Ownership Governance
+2770,ERC,Withdrawn,Standards Track,ERC,2020-07-01,Meta-Transactions Forwarder Contract
+2771,ERC,Final,Standards Track,ERC,2020-07-01,Secure Protocol for Native Meta Transactions
+2780,EIP,Last Call,Standards Track,Core,2020-07-11,Resource-Based Intrinsic Transaction Gas
+2786,EIP,Withdrawn,Standards Track,Interface,2020-07-15,Ethereum Provider Connect/Disconnect Events
+2803,EIP,Stagnant,Standards Track,Core,2020-07-18,Rich Transactions
+2831,EIP,Stagnant,Standards Track,Interface,2020-07-26,Transaction Replacement Message Type
+2844,EIP,Stagnant,Standards Track,Interface,2020-08-01,Add DID related methods to the JSON-RPC
+2848,ERC,Stagnant,Standards Track,ERC,2020-08-02,My Own Messages (MOM)
+2876,ERC,Stagnant,Standards Track,ERC,2020-08-13,Deposit contract and address standard
+2917,ERC,Stagnant,Standards Track,ERC,2020-08-28,Staking Reward Calculation
+2926,EIP,Draft,Standards Track,Core,2020-08-25,Chunk-Based Code Merkleization
+2929,EIP,Final,Standards Track,Core,2020-09-01,Gas cost increases for state access opcodes
+2930,EIP,Final,Standards Track,Core,2020-08-29,Optional access lists
+2935,EIP,Final,Standards Track,Core,2020-09-03,Serve historical block hashes from state
+2936,EIP,Stagnant,Standards Track,Core,2020-09-03,EXTCLEAR Opcode For SELFDESTRUCTed contracts
+2937,EIP,Stagnant,Standards Track,Core,2020-09-04,SET_INDESTRUCTIBLE opcode
+2938,EIP,Withdrawn,Standards Track,Core,2020-09-04,Account Abstraction
+2942,ERC,Stagnant,Standards Track,ERC,2020-09-04,EthPM URI Specification
+2970,EIP,Stagnant,Standards Track,Core,2020-09-13,IS_STATIC opcode
+2972,EIP,Withdrawn,Standards Track,Core,2020-09-12,Wrapped Legacy Transactions
+2976,EIP,Final,Standards Track,Networking,2020-09-13,Typed Transactions over Gossip
+2980,ERC,Stagnant,Standards Track,ERC,2020-09-08,Swiss Compliant Asset Token
+2981,ERC,Final,Standards Track,ERC,2020-09-15,NFT Royalty Standard
+2982,EIP,Final,Informational,,2020-09-15,Serenity Phase 0
+2997,EIP,Stagnant,Standards Track,Core,2020-09-24,IMPERSONATECALL Opcode
+3000,ERC,Stagnant,Standards Track,ERC,2020-09-24,Optimistic enactment governance standard
+3005,ERC,Stagnant,Standards Track,ERC,2020-09-25,Batched meta transactions
+3009,ERC,Draft,Standards Track,ERC,2020-09-28,Transfer With Authorization
+3014,EIP,Stagnant,Standards Track,Interface,2020-09-30,eth_symbol JSON-RPC method
+3026,EIP,Stagnant,Standards Track,Core,2020-10-05,BW6-761 curve operations
+3030,EIP,Stagnant,Standards Track,Interface,2020-09-30,BLS Remote Signer HTTP API
+3041,EIP,Stagnant,Standards Track,Interface,2020-10-13,Adds `baseFee` to `eth_getBlockByHash`
+3044,EIP,Stagnant,Standards Track,Interface,2020-10-14,Adds `baseFee` to `eth_getBlockByNumber`
+3045,EIP,Stagnant,Standards Track,Interface,2020-10-14,Adds `baseFee` to `eth_getUncleByBlockHashAndIndex`
+3046,EIP,Stagnant,Standards Track,Interface,2020-10-14,Adds `baseFee` to `eth_getUncleByBlockNumberAndIndex`
+3068,EIP,Stagnant,Standards Track,Core,2020-10-23,Precompile for BN256 HashToCurve Algorithms
+3074,EIP,Withdrawn,Standards Track,Core,2020-10-15,AUTH and AUTHCALL opcodes
+3076,EIP,Last Call,Standards Track,Interface,2020-10-27,Slashing Protection Interchange Format
+3085,EIP,Stagnant,Standards Track,Interface,2020-11-01,wallet_addEthereumChain RPC Method
+3091,EIP,Stagnant,Standards Track,Interface,2020-11-02,Block Explorer API Routes
+3102,EIP,Stagnant,Standards Track,Core,2020-09-01,Binary trie structure
+3135,ERC,Stagnant,Standards Track,ERC,2020-08-10,Exclusive Claimable Token
+3143,EIP,Stagnant,Standards Track,Core,2020-12-01,Increase block rewards to 5 ETH
+3155,EIP,Last Call,Standards Track,Interface,2020-12-07,EVM trace specification
+3156,ERC,Final,Standards Track,ERC,2020-11-15,Flash Loans
+3198,EIP,Final,Standards Track,Core,2021-01-13,BASEFEE opcode
+3220,EIP,Stagnant,Standards Track,Core,2020-10-21,Crosschain Identifier Specification
+3224,ERC,Stagnant,Standards Track,ERC,2021-01-23,Described Data
+3234,ERC,Stagnant,Standards Track,ERC,2021-01-31,Batch Flash Loans
+3238,EIP,Stagnant,Standards Track,Core,2021-01-25,Difficulty Bomb Delay to Q2/2022
+3267,EIP,Stagnant,Standards Track,Core,2021-02-13,Giving Ethereum fees to Future Salaries
+3298,EIP,Draft,Standards Track,Core,2021-02-26,Remove storage-clear refund and refund cap
+3300,EIP,Stagnant,Standards Track,Core,2020-02-26,Phase out refunds
+3322,EIP,Stagnant,Standards Track,Core,2020-03-04,Account gas storage opcodes
+3326,EIP,Stagnant,Standards Track,Interface,2021-03-04,Wallet Switch Ethereum Chain RPC Method (`wallet_switchEthereumChain`)
+3332,EIP,Withdrawn,Standards Track,Core,2021-03-05,MEDGASPRICE Opcode
+3336,EIP,Stagnant,Standards Track,Core,2021-03-06,Paged memory allocation for the EVM
+3337,EIP,Stagnant,Standards Track,Core,2021-03-06,Frame pointer support for memory load and store operations
+3338,EIP,Withdrawn,Standards Track,Core,2021-03-07,Limit account nonce to 2^52
+3368,EIP,Stagnant,Standards Track,Core,2021-03-12,"Increase block rewards to 3 ETH, with 2 Year Decay to 1 ETH Scheduled"
+3372,EIP,Stagnant,Standards Track,Core,2021-03-13,5 FNV primes for ethash
+3374,EIP,Withdrawn,Standards Track,Core,2021-03-13,Predictable Proof-of-Work (POW) Sunsetting
+3382,EIP,Withdrawn,Standards Track,Core,2021-03-13,Hardcoded Block Gas Limit
+3386,ERC,Stagnant,Standards Track,ERC,2021-03-12,ERC-721 and ERC-1155 to ERC-20 Wrapper
+3403,EIP,Stagnant,Standards Track,Core,2021-03-16,Partial removal of refunds
+3416,EIP,Stagnant,Standards Track,Core,2021-03-18,Median Gas Premium
+3436,EIP,Stagnant,Standards Track,Core,2021-03-25,Expanded Clique Block Choice Rule
+3440,ERC,Stagnant,Standards Track,ERC,2021-04-20,ERC-721 Editions Standard
+3448,ERC,Final,Standards Track,ERC,2021-03-29,MetaProxy Standard
+3450,ERC,Stagnant,Standards Track,ERC,2021-03-29,Standardized Shamir Secret Sharing Scheme for BIP-39 Mnemonics
+3455,EIP,Stagnant,Standards Track,Core,2021-04-01,SUDO Opcode
+3475,ERC,Final,Standards Track,ERC,2021-04-05,Abstract Storage Bonds
+3508,EIP,Stagnant,Standards Track,Core,2021-04-16,Transaction Data Opcodes
+3520,EIP,Stagnant,Standards Track,Core,2021-04-16,Transaction Destination Opcode
+3521,EIP,Stagnant,Standards Track,Core,2021-04-15,Reduce access list cost
+3525,ERC,Final,Standards Track,ERC,2020-12-01,Semi-Fungible Token
+3529,EIP,Final,Standards Track,Core,2021-04-22,Reduction in refunds
+3534,EIP,Stagnant,Standards Track,Core,2021-04-20,Restricted Chain Context Type Transactions
+3540,EIP,Stagnant,Standards Track,Core,2021-03-16,EOF - EVM Object Format v1
+3541,EIP,Final,Standards Track,Core,2021-03-16,Reject new contract code starting with the 0xEF byte
+3554,EIP,Final,Standards Track,Core,2021-05-06,Difficulty Bomb Delay to December 2021
+3561,ERC,Stagnant,Standards Track,ERC,2021-05-09,Trust Minimized Upgradeability Proxy
+3569,ERC,Stagnant,Standards Track,ERC,2021-05-07,Sealed NFT Metadata Standard
+3584,EIP,Stagnant,Standards Track,Core,2021-05-22,Block Access List
+3589,ERC,Stagnant,Standards Track,ERC,2021-05-24,Assemble assets into NFTs
+3607,EIP,Final,Standards Track,Core,2021-06-10,Reject transactions from senders with deployed code
+3643,ERC,Final,Standards Track,ERC,2021-07-09,T-REX - Token for Regulated EXchanges
+3651,EIP,Final,Standards Track,Core,2021-07-12,Warm COINBASE
+3668,ERC,Final,Standards Track,ERC,2020-07-19,CCIP Read—Secure offchain data retrieval
+3670,EIP,Stagnant,Standards Track,Core,2021-06-23,EOF - Code Validation
+3675,EIP,Final,Standards Track,Core,2021-07-22,Upgrade consensus to Proof-of-Stake
+3690,EIP,Stagnant,Standards Track,Core,2021-06-23,EOF - JUMPDEST Table
+3709,EIP,Stagnant,Standards Track,Interface,2021-08-07,Remove Support for Type 1 Transactions
+3722,ERC,Stagnant,Standards Track,ERC,2021-07-31,Poster
+3754,ERC,Stagnant,Standards Track,ERC,2021-08-21,A Vanilla Non-Fungible Token Standard
+3756,EIP,Stagnant,Standards Track,Core,2021-08-21,Gas Limit Cap
+3770,ERC,Draft,Standards Track,ERC,2021-08-26,Chain-specific addresses
+3772,ERC,Stagnant,Standards Track,ERC,2021-08-27,Compressed Integers
+3779,EIP,Withdrawn,Standards Track,Core,2021-08-30,Safer Control Flow for the EVM
+3788,EIP,Stagnant,Standards Track,Core,2021-09-02,Strict enforcement of chainId
+3855,EIP,Final,Standards Track,Core,2021-02-19,PUSH0 instruction
+3860,EIP,Final,Standards Track,Core,2021-07-16,Limit and meter initcode
+3978,EIP,Stagnant,Standards Track,Core,2021-09-16,Gas refunds on reverts
+4200,EIP,Stagnant,Standards Track,Core,2021-07-16,EOF - Static relative jumps
+4337,ERC,Final,Standards Track,ERC,2021-09-29,Account Abstraction Using Alt Mempool
+4341,ERC,Stagnant,Standards Track,ERC,2021-10-01,Ordered NFT Batch Standard
+4345,EIP,Final,Standards Track,Core,2021-10-05,Difficulty Bomb Delay to June 2022
+4353,ERC,Stagnant,Standards Track,ERC,2021-10-08,Interface for Staked Tokens in NFTs
+4361,ERC,Final,Standards Track,ERC,2021-10-11,Sign-In with Ethereum
+4393,ERC,Stagnant,Standards Track,ERC,2021-10-24,Micropayments for NFTs and Multi Tokens
+4396,EIP,Stagnant,Standards Track,Core,2021-10-28,Time-Aware Base Fee Calculation
+4399,EIP,Final,Standards Track,Core,2021-10-30,Supplant DIFFICULTY opcode with PREVRANDAO
+4400,ERC,Final,Standards Track,ERC,2021-10-30,EIP-721 Consumable Extension
+4430,ERC,Stagnant,Standards Track,ERC,2021-11-07,Described Transactions
+4444,EIP,Draft,Standards Track,Networking,2021-11-02,Bound Historical Data in Execution Clients
+4488,EIP,Stagnant,Standards Track,Core,2021-11-23,Transaction calldata gas cost reduction with total calldata limit
+4494,ERC,Stagnant,Standards Track,ERC,2021-11-25,Permit for ERC-721 NFTs
+4519,ERC,Final,Standards Track,ERC,2021-12-03,Non-Fungible Tokens Tied to Physical Assets
+4520,EIP,Stagnant,Standards Track,Core,2021-12-01,Multi-byte opcodes prefixed by EB and EC.
+4521,ERC,Stagnant,Standards Track,ERC,2021-12-13,721/20-compatible transfer
+4524,ERC,Stagnant,Standards Track,ERC,2021-12-05,Safer ERC-20
+4527,ERC,Stagnant,Standards Track,ERC,2021-12-07,QR Code transmission protocol for wallets
+4546,ERC,Stagnant,Standards Track,ERC,2021-12-11,Wrapped Deposits
+4573,EIP,Stagnant,Standards Track,Core,2021-12-16,Procedures for the EVM
+4626,ERC,Final,Standards Track,ERC,2021-12-22,Tokenized Vaults
+4671,ERC,Stagnant,Standards Track,ERC,2022-01-13,Non-Tradable Tokens Standard
+4675,ERC,Stagnant,Standards Track,ERC,2022-01-13,Multi-Fractional Non-Fungible Tokens
+4736,EIP,Final,Standards Track,Interface,2022-01-30,Consensus Layer Withdrawal Protection
+4747,EIP,Stagnant,Standards Track,Core,2022-02-02,Simplify EIP-161
+4750,EIP,Stagnant,Standards Track,Core,2022-01-10,EOF - Functions
+4758,EIP,Stagnant,Standards Track,Core,2022-02-03,Deactivate SELFDESTRUCT
+4760,EIP,Stagnant,Standards Track,Core,2022-02-03,SELFDESTRUCT bomb
+4762,EIP,Draft,Standards Track,Core,2022-02-03,Statelessness gas cost changes
+4788,EIP,Final,Standards Track,Core,2022-02-10,Beacon block root in the EVM
+4799,ERC,Stagnant,Standards Track,ERC,2022-02-13,Non-Fungible Token Ownership Designation Standard
+4803,EIP,Stagnant,Standards Track,Core,2022-02-02,Limit transaction gas to a maximum of 2^63-1
+4804,ERC,Final,Standards Track,ERC,2022-02-14,Web3 URL to EVM Call Message Translation
+4824,ERC,Review,Standards Track,ERC,2022-02-17,Common Interfaces for DAOs
+4834,ERC,Final,Standards Track,ERC,2022-02-22,Hierarchical Domains
+4844,EIP,Final,Standards Track,Core,2022-02-25,Shard Blob Transactions
+4863,EIP,Stagnant,Standards Track,Core,2022-02-28,Beacon chain push withdrawals
+4881,EIP,Final,Standards Track,Interface,2021-01-29,Deposit Contract Snapshot Interface
+4883,ERC,Draft,Standards Track,ERC,2022-03-08,Composable SVG NFT
+4885,ERC,Stagnant,Standards Track,ERC,2022-03-08,Subscription NFTs and Multi Tokens
+4886,ERC,Stagnant,Standards Track,ERC,2022-09-03,Proxy Ownership Register
+4895,EIP,Final,Standards Track,Core,2022-03-10,Beacon chain push withdrawals as operations
+4906,ERC,Final,Standards Track,ERC,2022-03-13,EIP-721 Metadata Update Extension
+4907,ERC,Final,Standards Track,ERC,2022-03-11,"Rental NFT, an Extension of EIP-721"
+4910,ERC,Final,Standards Track,ERC,2022-03-14,Royalty Bearing NFTs
+4931,ERC,Stagnant,Standards Track,ERC,2021-11-02,Generic Token Upgrade Standard
+4938,EIP,Final,Standards Track,Networking,2022-03-23,"""eth/67 - Removal of GetNodeData"""
+4944,ERC,Stagnant,Standards Track,ERC,2022-03-25,Contract with Exactly One Non-fungible Token
+4950,ERC,Stagnant,Standards Track,ERC,2022-03-28,Entangled Tokens
+4955,ERC,Final,Standards Track,ERC,2022-03-29,Vendor Metadata Extension for NFTs
+4972,ERC,Draft,Standards Track,ERC,2022-04-04,Name-Owned Account
+4973,ERC,Review,Standards Track,ERC,2022-04-01,Account-bound Tokens
+4974,ERC,Stagnant,Standards Track,ERC,2022-04-02,Ratings
+4987,ERC,Stagnant,Standards Track,ERC,2021-09-21,Held token interface
+5000,EIP,Stagnant,Standards Track,Core,2022-03-14,MULDIV instruction
+5003,EIP,Withdrawn,Standards Track,Core,2022-03-26,Insert Code into EOAs with AUTHUSURP
+5005,ERC,Stagnant,Standards Track,ERC,2022-04-14,Zodiac Modular Accounts
+5006,ERC,Final,Standards Track,ERC,2022-04-12,"Rental NFT, NFT User Extension"
+5007,ERC,Final,Standards Track,ERC,2022-04-13,"Time NFT, ERC-721 Time Extension"
+5008,ERC,Last Call,Standards Track,ERC,2022-04-10,ERC-721 Nonce Extension
+5018,ERC,Stagnant,Standards Track,ERC,2022-04-18,Filesystem-like Interface for Contracts
+5022,EIP,Stagnant,Standards Track,Core,2022-04-20,Increase price of SSTORE from zero to non-zero to 40k gas
+5023,ERC,Final,Standards Track,ERC,2022-01-28,Shareable Non-Fungible Token
+5027,EIP,Stagnant,Standards Track,Core,2022-04-21,Remove the limit on contract code size
+5050,ERC,Stagnant,Standards Track,ERC,2021-04-18,Interactive NFTs with Modular Environments
+5058,ERC,Stagnant,Standards Track,ERC,2022-04-30,Lockable Non-Fungible Tokens
+5065,EIP,Stagnant,Standards Track,Core,2022-04-30,Instruction for transferring ether
+5069,EIP,Living,Meta,,2022-05-02,EIP Editor Handbook
+5081,EIP,Stagnant,Standards Track,Core,2022-05-06,Expirable Transaction
+5094,ERC,Stagnant,Standards Track,ERC,2022-05-13,URL Format for Ethereum Network Switching
+5095,ERC,Stagnant,Standards Track,ERC,2022-05-01,Principal Token
+5114,ERC,Last Call,Standards Track,ERC,2022-05-30,Soulbound Badge
+5115,ERC,Draft,Standards Track,ERC,2022-05-30,SY Token
+5131,ERC,Stagnant,Standards Track,ERC,2022-06-03,SAFE Authentication For ENS
+5133,EIP,Final,Standards Track,Core,2022-06-01,Delaying Difficulty Bomb to mid-September 2022
+5139,ERC,Stagnant,Standards Track,ERC,2022-06-06,Remote Procedure Call Provider Lists
+5143,ERC,Stagnant,Standards Track,ERC,2022-06-09,Slippage Protection for Tokenized Vault
+5164,ERC,Last Call,Standards Track,ERC,2022-06-14,Cross-Chain Execution
+5169,ERC,Final,Standards Track,ERC,2022-05-03,Client Script URI for Token Contracts
+5173,ERC,Draft,Standards Track,ERC,2022-05-08,NFT Future Rewards (nFR)
+5185,ERC,Stagnant,Standards Track,ERC,2022-06-27,NFT Updatable Metadata Extension
+5187,ERC,Stagnant,Standards Track,ERC,2022-04-17,Extend EIP-1155 with rentable usage rights
+5189,ERC,Draft,Standards Track,ERC,2022-06-29,Account Abstraction via Endorsed Operations
+5192,ERC,Final,Standards Track,ERC,2022-07-01,Minimal Soulbound NFTs
+5202,ERC,Final,Standards Track,ERC,2022-06-23,Blueprint contract format
+5216,ERC,Last Call,Standards Track,ERC,2022-07-11,ERC-1155 Allowance Extension
+5218,ERC,Stagnant,Standards Track,ERC,2022-07-11,NFT Rights Management
+5219,ERC,Final,Standards Track,ERC,2022-07-10,Contract Resource Requests
+5247,ERC,Review,Standards Track,ERC,2022-07-13,Smart Contract Executable Proposal Interface
+5252,ERC,Stagnant,Standards Track,ERC,2022-06-29,Account-bound Finance
+5267,ERC,Final,Standards Track,ERC,2022-07-14,Retrieval of EIP-712 domain
+5269,ERC,Review,Standards Track,ERC,2022-07-15,ERC Detection and Discovery
+5283,EIP,Stagnant,Standards Track,Core,2022-07-17,Semaphore for Reentrancy Protection
+5289,ERC,Review,Standards Track,ERC,2022-07-16,Ethereum Notary Interface
+5298,ERC,Stagnant,Standards Track,ERC,2022-07-12,ENS Trust to hold NFTs under ENS name
+5313,ERC,Final,Standards Track,ERC,2022-07-22,Light Contract Ownership
+5334,ERC,Stagnant,Standards Track,ERC,2022-07-25,EIP-721 User And Expires And Level Extension
+5345,EIP,Stagnant,Standards Track,Interface,2022-07-26,Silent Signing Extension for JSON-RPC
+5375,ERC,Final,Standards Track,ERC,2022-07-30,NFT Author Information and Consent
+5380,ERC,Final,Standards Track,ERC,2022-03-11,ERC-721 Entitlement Extension
+5409,ERC,Stagnant,Standards Track,ERC,2022-07-23,EIP-1155 Non-Fungible Token extension
+5437,ERC,Stagnant,Standards Track,ERC,2022-08-09,Security Contact Interface
+5450,EIP,Stagnant,Standards Track,Core,2022-08-12,EOF - Stack Validation
+5453,ERC,Last Call,Standards Track,ERC,2022-08-12,Endorsement - Permit for Any Functions
+5478,EIP,Stagnant,Standards Track,Core,2022-08-17,CREATE2COPY Opcode
+5484,ERC,Final,Standards Track,ERC,2022-08-17,Consensual Soulbound Tokens
+5485,ERC,Review,Standards Track,ERC,2022-08-17,"Jurisdiction, Accreditation, and Enforcement"
+5489,ERC,Final,Standards Track,ERC,2022-08-16,NFT Hyperlink Extension
+5496,ERC,Last Call,Standards Track,ERC,2022-07-30,Multi-privilege Management NFT Extension
+5501,ERC,Stagnant,Standards Track,ERC,2022-08-18,Rental & Delegation NFT - EIP-721 Extension
+5505,ERC,Stagnant,Standards Track,ERC,2022-08-18,EIP-1155 asset backed NFT extension
+5507,ERC,Final,Standards Track,ERC,2022-08-19,Refundable Tokens
+5516,ERC,Final,Standards Track,ERC,2022-08-19,Soulbound Multi-owner Tokens
+5521,ERC,Final,Standards Track,ERC,2022-08-10,Referable NFT
+5528,ERC,Final,Standards Track,ERC,2022-08-16,Refundable Fungible Token
+5539,ERC,Stagnant,Standards Track,ERC,2022-08-26,Revocation List Registry
+5553,ERC,Stagnant,Standards Track,ERC,2022-08-17,Representing IP and its Royalty Structure
+5554,ERC,Stagnant,Standards Track,ERC,2022-07-07,"NFT Legal Use, Repurposing, and Remixing"
+5559,ERC,Stagnant,Standards Track,ERC,2022-06-23,Cross Chain Write Deferral Protocol
+5560,ERC,Stagnant,Standards Track,ERC,2022-08-30,Redeemable NFTs
+5564,ERC,Final,Standards Track,ERC,2022-08-13,Stealth Addresses
+5568,ERC,Review,Standards Track,ERC,2022-08-31,Well-Known Format for Required Actions
+5570,ERC,Final,Standards Track,ERC,2022-09-01,Digital Receipt Non-Fungible Tokens
+5573,ERC,Draft,Standards Track,ERC,2021-07-20,"Sign-In with Ethereum Capabilities, ReCaps"
+5585,ERC,Final,Standards Track,ERC,2022-08-15,ERC-721 NFT Authorization
+5593,EIP,Stagnant,Standards Track,Interface,2022-09-05,Restrict Ethereum Provider API Injection
+5604,ERC,Draft,Standards Track,ERC,2022-09-05,NFT Lien
+5606,ERC,Final,Standards Track,ERC,2022-09-06,Multiverse NFTs
+5615,ERC,Final,Standards Track,ERC,2023-05-25,ERC-1155 Supply Extension
+5625,ERC,Final,Standards Track,ERC,2022-09-08,NFT Metadata JSON Schema dStorage Extension
+5630,ERC,Draft,Standards Track,ERC,2022-09-07,New approach for encryption / decryption
+5633,ERC,Stagnant,Standards Track,ERC,2022-09-09,"Composable Soulbound NFT, EIP-1155 Extension"
+5635,ERC,Stagnant,Standards Track,ERC,2022-08-10,NFT Licensing Agreements
+5639,ERC,Review,Standards Track,ERC,2022-09-09,Delegation Registry
+5643,ERC,Stagnant,Standards Track,ERC,2022-09-10,Subscription NFTs
+5646,ERC,Final,Standards Track,ERC,2022-09-11,Token State Fingerprint
+5656,EIP,Final,Standards Track,Core,2021-02-01,MCOPY - Memory copying instruction
+5679,ERC,Final,Standards Track,ERC,2022-09-17,Token Minting and Burning
+5700,ERC,Draft,Standards Track,ERC,2022-09-22,Bindable Token Interface
+5719,ERC,Stagnant,Standards Track,ERC,2022-09-26,Signature replacement interface
+5725,ERC,Final,Standards Track,ERC,2022-09-08,Transferable Vesting NFT
+5727,ERC,Draft,Standards Track,ERC,2022-09-28,Semi-Fungible Soulbound Token
+5732,ERC,Final,Standards Track,ERC,2022-09-29,Commit Interface
+5744,ERC,Stagnant,Standards Track,ERC,2022-09-29,Latent Fungible Token
+5749,EIP,Final,Standards Track,Interface,2022-10-04,The 'window.evmproviders' object
+5750,ERC,Final,Standards Track,ERC,2022-10-04,General Extensibility for Method Behaviors
+5753,ERC,Stagnant,Standards Track,ERC,2022-10-05,Lockable Extension for EIP-721
+5757,EIP,Final,Meta,,2022-09-30,Process for Approving External Resources
+5773,ERC,Final,Standards Track,ERC,2022-10-10,Context-Dependent Multi-Asset Tokens
+5791,ERC,Draft,Standards Track,ERC,2022-10-17,Physical Backed Tokens
+5792,EIP,Final,Standards Track,Interface,2022-10-17,Wallet Call API
+5793,EIP,Final,Standards Track,Networking,2022-10-18,eth/68 - Add tx type to tx announcement
+5805,ERC,Review,Standards Track,ERC,2022-07-04,Voting with delegation
+5806,EIP,Stagnant,Standards Track,Core,2022-10-20,Delegate transaction
+5827,ERC,Stagnant,Standards Track,ERC,2022-10-22,Auto-renewable allowance extension
+5850,ERC,Stagnant,Standards Track,ERC,2022-10-29,Complex Numbers stored in `bytes32` types
+5851,ERC,Stagnant,Standards Track,ERC,2022-10-18,On-Chain Verifiable Credentials
+5883,ERC,Stagnant,Standards Track,ERC,2022-07-19,Token Transfer by Social Recovery
+5902,ERC,Stagnant,Standards Track,ERC,2022-11-09,Smart Contract Event Hooks
+5920,EIP,Draft,Standards Track,Core,2022-03-14,PAY opcode
+5982,ERC,Review,Standards Track,ERC,2022-11-15,Role-based Access Control
+5988,EIP,Stagnant,Standards Track,Core,2022-11-15,Add Poseidon hash function precompile
+6046,EIP,Stagnant,Standards Track,Core,2022-11-25,Replace SELFDESTRUCT with DEACTIVATE
+6047,ERC,Stagnant,Standards Track,ERC,2022-11-26,ERC-721 Balance indexing via Transfer event
+6049,EIP,Final,Meta,,2022-11-27,Deprecate SELFDESTRUCT
+6051,EIP,Stagnant,Standards Track,Interface,2022-11-21,Private Key Encapsulation
+6059,ERC,Final,Standards Track,ERC,2022-11-15,Parent-Governed Nestable Non-Fungible Tokens
+6065,ERC,Review,Standards Track,ERC,2022-11-29,Real Estate Token
+6066,ERC,Final,Standards Track,ERC,2022-11-29,Signature Validation Method for NFTs
+6093,ERC,Final,Standards Track,ERC,2022-12-06,Custom errors for commonly-used tokens
+6105,ERC,Final,Standards Track,ERC,2022-12-02,No Intermediary NFT Trading Protocol
+6110,EIP,Final,Standards Track,Core,2022-12-09,Supply validator deposits on chain
+6120,ERC,Review,Standards Track,ERC,2022-12-12,Universal Token Router
+6122,EIP,Final,Standards Track,Networking,2022-12-13,Forkid checks based on timestamps
+6123,ERC,Draft,Standards Track,ERC,2022-12-13,Smart Derivative Contract
+6147,ERC,Final,Standards Track,ERC,2022-12-07,"Guard of NFT/SBT, an Extension of ERC-721"
+6150,ERC,Final,Standards Track,ERC,2022-12-15,Hierarchical NFTs
+6170,ERC,Draft,Standards Track,ERC,2022-12-19,Cross-Chain Messaging Interface
+6188,EIP,Stagnant,Standards Track,Core,2022-12-20,Nonce Cap
+6189,EIP,Stagnant,Standards Track,Core,2022-12-20,Alias Contracts
+6190,EIP,Stagnant,Standards Track,Core,2022-12-20,Verkle-compatible SELFDESTRUCT
+6206,EIP,Stagnant,Standards Track,Core,2022-12-21,EOF - JUMPF and non-returning functions
+6220,ERC,Final,Standards Track,ERC,2022-12-20,Composable NFTs utilizing Equippable Parts
+6224,ERC,Last Call,Standards Track,ERC,2022-12-27,Contracts Dependencies Registry
+6229,ERC,Draft,Standards Track,ERC,2022-12-21,Tokenized Vaults with Lock-in Period
+6239,ERC,Final,Standards Track,ERC,2022-12-30,Semantic Soulbound Tokens
+6268,ERC,Stagnant,Standards Track,ERC,2022-01-06,Untransferability Indicator for EIP-1155
+6315,ERC,Review,Standards Track,ERC,2023-01-11,ERC-2771 Namespaced Account Abstraction
+6327,ERC,Draft,Standards Track,ERC,2023-01-13,Elastic Signature
+6353,ERC,Stagnant,Standards Track,ERC,2022-05-13,Charity token
+6357,ERC,Last Call,Standards Track,ERC,2023-01-18,Single-contract Multi-delegatecall
+6358,ERC,Review,Standards Track,ERC,2023-01-17,Cross-Chain Token States Synchronization
+6366,ERC,Review,Standards Track,ERC,2022-01-19,Permission Token
+6372,ERC,Review,Standards Track,ERC,2023-01-25,Contract clock
+6381,ERC,Final,Standards Track,ERC,2023-01-22,Public Non-Fungible Token Emote Repository
+6384,ERC,Stagnant,Standards Track,ERC,2023-01-08,Human-readable offline signatures
+6404,EIP,Draft,Standards Track,Core,2023-01-30,SSZ transactions
+6454,ERC,Final,Standards Track,ERC,2023-01-31,Minimal Transferable NFT detection interface
+6464,ERC,Stagnant,Standards Track,ERC,2023-02-02,"Multi-operator, per-token ERC-721 approvals."
+6465,EIP,Draft,Standards Track,Core,2023-02-08,SSZ withdrawals root
+6466,EIP,Draft,Standards Track,Core,2023-02-08,SSZ receipts
+6475,EIP,Stagnant,Standards Track,Core,2023-02-09,SSZ Optional
+6492,ERC,Final,Standards Track,ERC,2023-02-10,Signature Validation for Predeploy Contracts
+6493,EIP,Draft,Standards Track,Core,2023-02-24,SSZ transaction signature scheme
+6506,ERC,Stagnant,Standards Track,ERC,2023-02-15,P2P Escrowed Governance Incentives
+6538,ERC,Final,Standards Track,ERC,2023-01-24,Stealth Meta-Address Registry
+6551,ERC,Review,Standards Track,ERC,2023-02-23,Non-fungible Token Bound Accounts
+6596,ERC,Review,Standards Track,ERC,2023-02-28,Cultural and Historical Asset Token
+6604,ERC,Draft,Standards Track,ERC,2023-03-03,Abstract Token
+6617,ERC,Review,Standards Track,ERC,2023-02-27,Bit Based Permission
+6662,ERC,Draft,Standards Track,ERC,2023-03-09,AA Account Metadata For Authentication
+6672,ERC,Final,Standards Track,ERC,2023-02-21,Multi-redeemable NFTs
+6682,ERC,Draft,Standards Track,ERC,2023-03-12,NFT Flashloans
+6690,EIP,Stagnant,Standards Track,Core,2023-03-15,EVM Modular Arithmetic Extensions
+6734,ERC,Review,Standards Track,ERC,2023-03-20,L2 Token List
+6735,ERC,Review,Standards Track,ERC,2022-03-20,L2 Aliasing of EVM-based Addresses
+6780,EIP,Final,Standards Track,Core,2023-03-25,SELFDESTRUCT only in same transaction
+6785,ERC,Draft,Standards Track,ERC,2023-03-27,ERC-721 Utilities Information Extension
+6786,ERC,Draft,Standards Track,ERC,2023-03-27,Registry for royalties payment for NFTs
+6787,ERC,Draft,Standards Track,ERC,2023-03-27,Order Book DEX with Two Phase Withdrawal
+6789,EIP,Stagnant,Standards Track,Interface,2023-03-27,Rename gas to mana
+6800,EIP,Stagnant,Standards Track,Core,2023-03-17,Ethereum state using a unified verkle tree
+6806,ERC,Draft,Standards Track,ERC,2023-03-30,ERC-721 Holding Time Tracking
+6808,ERC,Final,Standards Track,ERC,2023-03-31,Fungible Key Bound Token
+6809,ERC,Final,Standards Track,ERC,2023-03-31,Non-Fungible Key Bound Token
+6810,EIP,Stagnant,Standards Track,Core,2023-04-01,Ex Post Facto Cascading Revert
+6811,EIP,Stagnant,Standards Track,Core,2023-04-01,To The Moon—10 Minute Blocks
+6821,ERC,Draft,Standards Track,ERC,2023-04-02,Support ENS Name for Web3 URL
+6823,ERC,Draft,Standards Track,ERC,2023-03-29,Token Mapping Slot Retrieval Extension
+6860,ERC,Draft,Standards Track,ERC,2023-09-29,Web3 URL to EVM Call Message Translation
+6864,ERC,Draft,Standards Track,ERC,2023-04-05,Upgradable Fungible Token
+6865,ERC,Draft,Standards Track,ERC,2023-04-10,On-Chain EIP-712 Visualization
+6873,EIP,Stagnant,Standards Track,Core,2023-04-14,Preimage retention
+6888,EIP,Stagnant,Standards Track,Core,2023-04-16,Arithmetic verification at EVM level
+6900,ERC,Draft,Standards Track,ERC,2023-04-18,Modular Smart Contract Accounts
+6909,ERC,Final,Standards Track,ERC,2023-04-19,Minimal Multi-Token Interface
+6913,EIP,Withdrawn,Standards Track,Core,2023-04-20,SETCODE instruction
+6914,EIP,Stagnant,Standards Track,Core,2023-04-19,Reuse Withdrawn Validator Indices
+6916,EIP,Final,Standards Track,Core,2023-04-10,Automatically Reset Testnet
+6932,ERC,Draft,Standards Track,ERC,2023-04-25,Subscription-Based Token
+6944,ERC,Draft,Standards Track,ERC,2023-04-27,ERC-5219 Resolve Mode
+6953,EIP,Final,Informational,,2023-04-28,Network Upgrade Activation Triggers
+6956,ERC,Review,Standards Track,ERC,2023-04-29,Asset-bound Non-Fungible Tokens
+6960,ERC,Draft,Standards Track,ERC,2023-04-30,Dual Layer Token
+6963,EIP,Final,Standards Track,Interface,2023-05-01,Multi Injected Provider Discovery
+6968,EIP,Stagnant,Standards Track,Core,2023-05-01,Contract Secured Revenue on an EVM based L2
+6981,ERC,Draft,Standards Track,ERC,2023-04-25,Reserved Ownership Accounts
+6982,ERC,Final,Standards Track,ERC,2023-05-02,Efficient Default Lockable Tokens
+6988,EIP,Stagnant,Standards Track,Core,2023-05-04,Elected block proposer has not been slashed
+6997,ERC,Review,Standards Track,ERC,2023-05-07,ERC-721 with transaction validation step.
+7002,EIP,Final,Standards Track,Core,2023-05-09,Execution layer triggerable withdrawals
+7007,ERC,Final,Standards Track,ERC,2023-05-10,Verifiable AI-Generated Content Token
+7015,ERC,Review,Standards Track,ERC,2023-05-11,NFT Creator Attribution
+7039,EIP,Stagnant,Standards Track,Interface,2023-05-15,Scheme-Handler Discovery Option for Wallets
+7044,EIP,Final,Standards Track,Core,2023-05-18,Perpetually Valid Signed Voluntary Exits
+7045,EIP,Final,Standards Track,Core,2023-05-18,Increase max attestation inclusion slot
+7053,ERC,Final,Standards Track,ERC,2023-05-22,Interoperable Digital Media Indexing
+7066,ERC,Final,Standards Track,ERC,2023-05-25,Lockable Extension for ERC-721
+7069,EIP,Stagnant,Standards Track,Core,2023-05-05,Revamped CALL instructions
+7085,ERC,Draft,Standards Track,ERC,2023-05-02,NFT Relationship Enhancement
+7087,ERC,Draft,Standards Track,ERC,2023-05-28,MIME type for Web3 URL in Auto Mode
+7092,ERC,Final,Standards Track,ERC,2023-05-28,Financial Bonds
+7093,ERC,Draft,Standards Track,ERC,2023-05-29,Social Recovery Interface
+7144,ERC,Review,Standards Track,ERC,2023-05-07,ERC-20 with transaction validation step.
+7160,ERC,Final,Standards Track,ERC,2023-06-09,ERC-721 Multi-Metadata Extension
+7196,ERC,Draft,Standards Track,ERC,2023-06-21,"Simple token, Simplified ERC-20"
+7199,EIP,Withdrawn,Meta,,2023-06-20,Linter Scope
+7201,ERC,Final,Standards Track,ERC,2023-06-20,Namespaced Storage Layout
+7204,ERC,Draft,Standards Track,ERC,2023-06-21,Contract wallet management token
+7208,ERC,Final,Standards Track,ERC,2023-06-09,On-Chain Data Containers
+7231,ERC,Final,Standards Track,ERC,2023-06-25,Identity-aggregated NFT
+7246,ERC,Review,Standards Track,ERC,2023-06-27,Encumber - Splitting Ownership & Guarantees
+7251,EIP,Final,Standards Track,Core,2023-06-28,Increase the MAX_EFFECTIVE_BALANCE
+7254,ERC,Draft,Standards Track,ERC,2023-06-29,Token Revenue Sharing
+7266,EIP,Stagnant,Standards Track,Core,2023-07-03,Remove BLAKE2 compression precompile
+7272,ERC,Draft,Standards Track,ERC,2023-07-03,Ethereum Access Token
+7280,ERC,Draft,Standards Track,ERC,2023-07-04,NFT Metadata Extension like JSON-LD
+7291,ERC,Final,Standards Track,ERC,2023-06-24,Purpose bound money
+7303,ERC,Draft,Standards Track,ERC,2023-07-09,Token-Controlled Token Circulation
+7329,EIP,Final,Meta,,2023-07-13,ERC/EIP Repository split
+7377,EIP,Stagnant,Standards Track,Core,2023-07-21,Migration Transaction
+7378,EIP,Stagnant,Standards Track,Core,2023-07-22,Add time-weighted averaging to the base fee
+7390,ERC,Draft,Standards Track,ERC,2022-09-02,Vanilla Options for ERC-20 Tokens
+7399,ERC,Review,Standards Track,ERC,2023-07-25,⚡ Flash Loans ⚡
+7401,ERC,Final,Standards Track,ERC,2023-07-26,Parent-Governed Non-Fungible Tokens Nesting
+7405,ERC,Draft,Standards Track,ERC,2023-07-26,Portable Smart Contract Accounts
+7406,ERC,Draft,Standards Track,ERC,2023-07-23,Multi-Namespace Onchain Registry
+7409,ERC,Final,Standards Track,ERC,2023-07-26,Public Non-Fungible Tokens Emote Repository
+7410,ERC,Draft,Standards Track,ERC,2023-07-26,ERC-20 Update Allowance By Spender
+7412,ERC,Draft,Standards Track,ERC,2023-07-26,On-Demand Off-Chain Data Retrieval
+7417,ERC,Review,Standards Track,ERC,2023-07-27,Token Converter
+7425,ERC,Draft,Standards Track,ERC,2023-06-30,Tokenized Reserve
+7432,ERC,Final,Standards Track,ERC,2023-07-14,Non-Fungible Token Roles
+7439,ERC,Final,Standards Track,ERC,2023-07-28,Prevent ticket touting
+7441,EIP,Stagnant,Standards Track,Core,2023-09-01,Upgrade block proposer election to Whisk
+7444,ERC,Draft,Standards Track,ERC,2023-06-05,Time Locks Maturity
+7480,EIP,Stagnant,Standards Track,Core,2023-08-11,EOF - Data section access instructions
+7484,ERC,Draft,Standards Track,ERC,2023-08-14,Registry Extension for ERC-7579
+7495,EIP,Review,Standards Track,Core,2023-08-18,SSZ ProgressiveContainer
+7496,ERC,Draft,Standards Track,ERC,2023-07-28,NFT Dynamic Traits
+7498,ERC,Draft,Standards Track,ERC,2023-07-28,NFT Redeemables
+7503,EIP,Stagnant,Standards Track,Core,2023-08-14,Zero-Knowledge Wormholes
+7506,ERC,Draft,Standards Track,ERC,2023-08-31,Trusted Hint Registry
+7507,ERC,Draft,Standards Track,ERC,2023-08-24,Multi-User NFT Extension
+7508,ERC,Draft,Standards Track,ERC,2023-08-15,Dynamic On-Chain Token Attributes Repository
+7509,ERC,Draft,Standards Track,ERC,2023-09-05,Entity Component System
+7510,ERC,Draft,Standards Track,ERC,2023-08-24,Cross-Contract Hierarchical NFT
+7511,ERC,Draft,Standards Track,ERC,2023-09-04,Minimal Proxy Contract with PUSH0
+7512,ERC,Draft,Standards Track,ERC,2023-09-05,Onchain Representation for Audits
+7513,ERC,Draft,Standards Track,ERC,2023-09-06,Smart NFT - A Component for Intent-Centric
+7514,EIP,Final,Standards Track,Core,2023-09-07,Add Max Epoch Churn Limit
+7516,EIP,Final,Standards Track,Core,2023-09-11,BLOBBASEFEE instruction
+7517,ERC,Draft,Standards Track,ERC,2023-09-12,Content Consent for AI/ML Data Mining
+7518,ERC,Review,Standards Track,ERC,2023-09-14,Dynamic Compliant Interop Security Token
+7519,EIP,Stagnant,Standards Track,Core,2023-09-16,Atomic Storage Operations SCREDIT and SDEBIT
+7521,ERC,Draft,Standards Track,ERC,2023-09-19,General Intents for Smart Contract Wallets
+7522,ERC,Draft,Standards Track,ERC,2023-09-20,OIDC ZK Verifier for AA Account
+7523,EIP,Last Call,Standards Track,Core,2023-09-19,Empty accounts deprecation
+7524,ERC,Draft,Standards Track,ERC,2023-09-24,PLUME Signature in Wallets
+7527,ERC,Draft,Standards Track,ERC,2023-09-03,Token Bound Function Oracle AMM
+7528,ERC,Final,Standards Track,ERC,2023-10-03,ETH (Native Asset) Address Convention
+7529,ERC,Draft,Standards Track,ERC,2023-09-30,Contract Discovery and eTLD+1 Association
+7531,ERC,Review,Standards Track,ERC,2023-10-01,Staked ERC-721 Ownership Recognition
+7533,ERC,Draft,Standards Track,ERC,2023-10-11,Public Cross Port
+7535,ERC,Final,Standards Track,ERC,2023-10-12,Native Asset ERC-4626 Tokenized Vault
+7538,ERC,Draft,Standards Track,ERC,2023-10-18,Multiplicative Tokens
+7540,ERC,Final,Standards Track,ERC,2023-10-18,Asynchronous ERC-4626 Tokenized Vaults
+7542,EIP,Withdrawn,Standards Track,Networking,2023-10-21,eth/70 - available-blocks-extended protocol
+7543,EIP,Stagnant,Standards Track,Core,2023-10-22,EVM arbitrary precision decimal math
+7545,EIP,Stagnant,Standards Track,Core,2023-10-13,Verkle proof verification precompile
+7546,ERC,Draft,Standards Track,ERC,2023-10-25,Upgradeable Clone for Scalable Contracts
+7547,EIP,Stagnant,Standards Track,Core,2023-10-24,Inclusion lists
+7548,ERC,Draft,Standards Track,ERC,2023-10-31,Open IP Protocol built on NFTs
+7549,EIP,Final,Standards Track,Core,2023-11-01,Move committee index outside Attestation
+7555,ERC,Draft,Standards Track,ERC,2023-11-10,Single Sign-On for Account Discovery
+7557,EIP,Stagnant,Standards Track,Core,2023-10-01,Block-level Warming with fair cost savings
+7561,ERC,Draft,Standards Track,ERC,2023-10-29,"Simple NFT, Simplified ERC-721"
+7562,ERC,Review,Standards Track,ERC,2023-09-01,Account Abstraction Validation Scope Rules
+7564,ERC,Draft,Standards Track,ERC,2023-11-21,Contract wallet management NFT
+7565,ERC,Draft,Standards Track,ERC,2023-11-27,Perpetual Contract NFTs as Collateral
+7566,ERC,Draft,Standards Track,ERC,2023-11-28,Multiplayer Game Communication
+7568,EIP,Final,Meta,,2023-12-01,Hardfork Meta Backfill - Berlin to Shapella
+7569,EIP,Final,Meta,,2023-12-01,Hardfork Meta - Dencun
+7572,ERC,Draft,Standards Track,ERC,2023-12-06,Contract-level metadata via `contractURI()`
+7573,ERC,Draft,Standards Track,ERC,2023-12-05,Conditional-upon-Transfer-Decryption for DvP
+7574,ERC,Draft,Standards Track,ERC,2023-11-02,Authentication SBT using Credential
+7575,ERC,Final,Standards Track,ERC,2023-12-11,Multi-Asset ERC-4626 Vaults
+7577,EIP,Stagnant,Meta,,2023-12-13,Versioning Scheme for EIPs
+7578,ERC,Final,Standards Track,ERC,2023-08-01,Physical Asset Redemption
+7579,ERC,Draft,Standards Track,ERC,2023-12-14,Minimal Modular Smart Accounts
+7580,ERC,Draft,Standards Track,ERC,2023-12-13,Advertisement Tracking Interface
+7582,ERC,Draft,Standards Track,ERC,2023-12-25,Modular Accounts with Delegated Validation
+7585,ERC,Draft,Standards Track,ERC,2023-12-27,MixHash and Public Data Storage Proofs
+7586,ERC,Review,Standards Track,ERC,2023-12-31,Interest Rate Swaps
+7587,EIP,Final,Meta,,2023-12-21,Reserve Precompile Address Range for RIPs
+7588,ERC,Final,Standards Track,ERC,2024-01-01,Blob Transactions Metadata JSON Schema
+7589,ERC,Draft,Standards Track,ERC,2023-12-28,Semi-Fungible Token Roles
+7590,ERC,Review,Standards Track,ERC,2024-01-05,ERC-20 Holder Extension for NFTs
+7591,EIP,Stagnant,Standards Track,Core,2024-01-10,BLS signed transactions
+7594,EIP,Final,Standards Track,Core,2024-01-12,PeerDAS - Peer Data Availability Sampling
+7595,ERC,Draft,Standards Track,ERC,2023-03-13,Collateralized NFT
+7597,ERC,Draft,Standards Track,ERC,2024-01-15,Signature Validation Extension for Permit
+7598,ERC,Draft,Standards Track,ERC,2024-01-15,Use contract signature for signed transfer
+7600,EIP,Final,Meta,,2024-01-18,Hardfork Meta - Pectra
+7603,ERC,Draft,Standards Track,ERC,2024-01-25,ERC-1155 Multi-Asset extension
+7604,ERC,Draft,Standards Track,ERC,2024-01-27,ERC-1155 Permit Approvals
+7607,EIP,Final,Meta,,2024-02-01,Hardfork Meta - Fusaka
+7609,EIP,Stagnant,Standards Track,Core,2024-02-01,Decrease base cost of TLOAD/TSTORE
+7610,EIP,Last Call,Standards Track,Core,2024-02-02,Revert creation in case of non-empty storage
+7612,EIP,Stagnant,Standards Track,Core,2024-01-25,Verkle state transition via an overlay tree
+7613,ERC,Draft,Standards Track,ERC,2024-02-04,Puppet Proxy Contract
+7615,ERC,Draft,Standards Track,ERC,2024-02-03,Atomic Push-based Data Feed Among Contracts
+7617,ERC,Draft,Standards Track,ERC,2024-02-08,Chunk support for ERC-5219 mode in Web3 URL
+7618,ERC,Draft,Standards Track,ERC,2024-02-08,Content encoding in ERC-5219 mode Web3 URL
+7619,EIP,Draft,Standards Track,Core,2023-07-03,Precompile Falcon512 generic verifier
+7620,EIP,Stagnant,Standards Track,Core,2024-02-12,EOF Contract Creation
+7621,ERC,Draft,Standards Track,ERC,2024-02-11,Basket Token
+7623,EIP,Final,Standards Track,Core,2024-02-13,Increase calldata cost
+7627,ERC,Final,Standards Track,ERC,2024-02-19,Secure Messaging Protocol
+7628,ERC,Review,Standards Track,ERC,2024-02-20,ERC-721 Ownership Shares Extension
+7629,ERC,Draft,Standards Track,ERC,2024-02-18,ERC-20/ERC-721 Unified Token Interface
+7631,ERC,Final,Standards Track,ERC,2024-02-21,Dual Nature Token Pair
+7632,ERC,Draft,Standards Track,ERC,2024-02-08,Interfaces for Named Token
+7634,ERC,Final,Standards Track,ERC,2024-02-22,Limited Transfer Count NFT
+7636,EIP,Withdrawn,Standards Track,Networking,2024-02-25,"Extension of EIP-778 for ""client"" ENR Entry"
+7637,EIP,Stagnant,Standards Track,Core,2024-02-26,Optimize EOA EXTCODEHASH
+7638,ERC,Draft,Standards Track,ERC,2024-02-26,Batch Calls Encoding in SCA
+7639,EIP,Stagnant,Standards Track,Networking,2024-02-13,eth/70 - Cease serving history before PoS
+7641,ERC,Draft,Standards Track,ERC,2024-02-28,Intrinsic RevShare Token
+7642,EIP,Final,Standards Track,Networking,2024-02-29,eth/69 - history expiry and simpler receipts
+7643,EIP,Stagnant,Standards Track,Core,2024-02-29,History accumulator for pre-PoS data
+7644,ERC,Draft,Standards Track,ERC,2024-03-01,ERC-721 Name Registry Extension
+7645,EIP,Stagnant,Standards Track,Core,2024-03-03,Alias ORIGIN to SENDER
+7649,ERC,Draft,Standards Track,ERC,2024-02-28,Bonding curve-embedded liquidity for NFTs
+7650,EIP,Stagnant,Standards Track,Core,2024-03-10,Programmable access lists
+7651,ERC,Draft,Standards Track,ERC,2024-03-05,Fractionally Represented Non-Fungible Token
+7652,ERC,Draft,Standards Track,ERC,2024-03-10,ERC-721 Guarantee Extension
+7654,ERC,Draft,Standards Track,ERC,2024-03-13,Request Method Types
+7656,ERC,Final,Standards Track,ERC,2024-03-15,Generalized Contract-Linked Services
+7657,EIP,Stagnant,Standards Track,Core,2024-03-21,Sync committee slashings
+7658,EIP,Stagnant,Standards Track,Core,2024-03-21,Light client data backfill
+7662,ERC,Draft,Standards Track,ERC,2024-03-26,AI Agent NFTs
+7664,EIP,Withdrawn,Standards Track,Core,2024-03-27,Access-Key opcode
+7666,EIP,Draft,Standards Track,Core,2024-03-31,EVM-ify the identity precompile
+7667,EIP,Stagnant,Standards Track,Core,2024-03-31,Raise gas costs of hash functions
+7668,EIP,Stagnant,Standards Track,Core,2024-03-31,Remove bloom filters
+7673,ERC,Review,Standards Track,ERC,2024-04-01,Distinguishable base256emoji Addresses
+7674,ERC,Review,Standards Track,ERC,2024-04-02,Temporary Approval Extension for ERC-20
+7675,EIP,Withdrawn,Meta,,2024-04-04,Retroactively Included EIPs
+7676,EIP,Stagnant,Standards Track,Core,2024-04-03,EOF - Prepare for Address Space Extension
+7677,ERC,Review,Standards Track,ERC,2024-04-03,Paymaster Web Service Capability
+7679,ERC,Draft,Standards Track,ERC,2024-04-05,UserOperation Builder
+7681,ERC,Draft,Standards Track,ERC,2024-04-08,Dual Nature Multi Token Protocol
+7682,ERC,Draft,Standards Track,ERC,2024-04-09,Auxiliary Funds Capability
+7683,ERC,Draft,Standards Track,ERC,2024-04-11,Cross Chain Intents
+7684,EIP,Stagnant,Standards Track,Core,2024-04-12,Return deposits for distinct credentials
+7685,EIP,Final,Standards Track,Core,2024-04-14,General purpose execution layer requests
+7686,EIP,Stagnant,Standards Track,Core,2024-04-15,Linear EVM memory limits
+7688,EIP,Review,Standards Track,Core,2024-04-15,Forward Compatible Consensus Data Structures
+7691,EIP,Final,Standards Track,Core,2024-04-17,Blob throughput increase
+7692,EIP,Stagnant,Meta,,2024-04-17,EVM Object Format (EOFv1) Meta
+7694,ERC,Draft,Standards Track,ERC,2024-04-18,Solana Storage Router
+7695,ERC,Draft,Standards Track,ERC,2024-04-02,Ownership Delegation and Context for ERC-721
+7698,EIP,Stagnant,Standards Track,Core,2024-04-24,EOF - Creation transaction
+7699,ERC,Draft,Standards Track,ERC,2024-04-26,ERC-20 Transfer Reference Extension
+7700,ERC,Draft,Standards Track,ERC,2024-04-30,Cross-chain Storage Router Protocol
+7701,EIP,Withdrawn,Standards Track,Core,2024-05-01,Native Account Abstraction
+7702,EIP,Final,Standards Track,Core,2024-05-07,Set Code for EOAs
+7703,EIP,Stagnant,Standards Track,Core,2024-05-07,Increase calldata cost
+7705,EIP,Stagnant,Standards Track,Core,2024-05-09,NONREENTRANT and REENTRANT opcodes
+7706,EIP,Stagnant,Standards Track,Core,2024-05-13,Separate gas type for calldata
+7707,EIP,Stagnant,Standards Track,Core,2024-05-12,Incentivize Access List Provisioning
+7708,EIP,Last Call,Standards Track,Core,2024-05-17,ETH Transfers Emit a Log
+7709,EIP,Draft,Standards Track,Core,2024-05-18,Read BLOCKHASH from Storage and Update Cost
+7710,ERC,Draft,Standards Track,ERC,2024-05-20,Smart Contract Delegation
+7713,EIP,Stagnant,Standards Track,Interface,2024-05-23,Box type for EIP-712 messages
+7715,ERC,Draft,Standards Track,ERC,2024-05-24,Request Permissions from Wallets
+7716,EIP,Draft,Standards Track,Core,2024-05-25,Anti-Correlation Attestation Penalties
+7720,ERC,Draft,Standards Track,ERC,2024-06-09,Deferred Token Transfer
+7721,ERC,Draft,Standards Track,ERC,2023-05-25,Lockable Extension for ERC-1155
+7722,ERC,Draft,Standards Track,ERC,2024-06-09,Opaque Token
+7723,EIP,Last Call,Meta,,2024-06-12,Network Upgrade Inclusion Stages
+7726,ERC,Draft,Standards Track,ERC,2024-06-20,Common Quote Oracle
+7727,EIP,Stagnant,Standards Track,Core,2024-06-24,EVM Transaction Bundles
+7729,ERC,Draft,Standards Track,ERC,2023-06-24,Token with Metadata
+7730,ERC,Draft,Standards Track,ERC,2024-02-07,Structured Data Clear Signing Format
+7732,EIP,Last Call,Standards Track,Core,2024-06-28,Enshrined Proposer-Builder Separation
+7734,ERC,Final,Standards Track,ERC,2024-06-26,Decentralized Identity Verification (DID)
+7736,EIP,Stagnant,Standards Track,Core,2024-07-05,Leaf-level state expiry in verkle trees
+7738,ERC,Draft,Standards Track,ERC,2024-07-01,Permissionless Script Registry
+7739,ERC,Draft,Standards Track,ERC,2024-05-28,Readable Typed Signatures for Smart Accounts
+7741,ERC,Draft,Standards Track,ERC,2024-06-03,Authorize Operator
+7742,EIP,Stagnant,Standards Track,Core,2024-07-12,Uncouple blob count between CL and EL
+7743,ERC,Final,Standards Track,ERC,2024-07-13,Multi-Owner Non-Fungible Tokens (MO-NFT)
+7744,ERC,Last Call,Standards Track,ERC,2024-07-16,Code Index
+7745,EIP,Draft,Standards Track,Core,2024-07-17,Trustless log and transaction index
+7746,ERC,Last Call,Standards Track,ERC,2024-07-17,Composable Security Middleware Hooks
+7748,EIP,Draft,Standards Track,Core,2024-07-23,State conversion to Verkle Tree
+7749,EIP,Draft,Standards Track,Interface,2024-06-21,Add wallet_signIntendedValidatorData method
+7750,ERC,Review,Standards Track,ERC,2024-08-04,Decentralized Employment System
+7751,ERC,Final,Standards Track,ERC,2024-08-06,Wrapping of bubbled up reverts
+7754,ERC,Draft,Standards Track,ERC,2024-07-29,Tamperproof Extension Wallets API (TWIST)
+7756,EIP,Stagnant,Standards Track,Interface,2024-08-13,EOF/EVM Trace Specification
+7758,ERC,Review,Standards Track,ERC,2020-09-28,Transfer With Authorization
+7760,ERC,Draft,Standards Track,ERC,2024-08-19,Minimal Upgradeable Proxies
+7761,EIP,Stagnant,Standards Track,Core,2024-09-01,EXTCODETYPE instruction
+7762,EIP,Stagnant,Standards Track,Core,2024-08-31,Increase MIN_BASE_FEE_PER_BLOB_GAS
+7765,ERC,Draft,Standards Track,ERC,2024-08-20,Privileged Non-Fungible Tokens Tied To RWA
+7766,ERC,Withdrawn,Standards Track,ERC,2024-09-01,Signature Aggregation for ERC-4337
+7768,EIP,Stagnant,Meta,,2024-09-14,No-Ether transactions with free-for-all tips
+7769,ERC,Draft,Standards Track,ERC,2024-08-23,JSON-RPC API for ERC-4337
+7770,ERC,Draft,Standards Track,ERC,2024-09-17,Fractional Reserve Token
+7773,EIP,Review,Meta,,2024-09-26,Hardfork Meta - Glamsterdam
+7774,ERC,Draft,Standards Track,ERC,2024-09-20,Cache invalidation in ERC-5219 mode Web3 URL
+7775,EIP,Stagnant,Standards Track,Core,2024-09-30,BURN opcode
+7776,ERC,Review,Standards Track,ERC,2024-09-20,Transparent Financial Statements
+7777,ERC,Review,Standards Track,ERC,2024-09-29,Governance for Human Robot Societies
+7778,EIP,Last Call,Standards Track,Core,2024-10-01,Block Gas Accounting without Refunds
+7779,ERC,Draft,Standards Track,ERC,2024-10-02,Interoperable Delegated Accounts
+7780,ERC,Draft,Standards Track,ERC,2024-10-01,Validation Module Extension for ERC-7579
+7782,EIP,Draft,Standards Track,Core,2024-10-05,Reduce Block Latency
+7783,EIP,Stagnant,Informational,,2024-10-06,Add Controlled Gas Limit Increase Strategy
+7784,EIP,Review,Standards Track,Core,2024-10-07,GETCONTRACT opcode
+7785,ERC,Draft,Standards Track,ERC,2024-09-26,Onchain registration of chain identifiers
+7786,ERC,Final,Standards Track,ERC,2024-10-14,Cross-Chain Messaging Gateway
+7787,ERC,Draft,Standards Track,ERC,2024-10-15,Soulbound Degradable Governance
+7788,EIP,Withdrawn,Standards Track,Core,2024-10-15,Dynamic target blob count
+7790,EIP,Stagnant,Informational,,2024-10-18,Controlled Gas Limit Increase Guidelines
+7791,EIP,Draft,Standards Track,Core,2024-08-13,GAS2ETH opcode
+7792,EIP,Stagnant,Standards Track,Core,2024-10-21,Verifiable logs
+7793,EIP,Stagnant,Standards Track,Core,2024-10-17,Conditional Transactions
+7794,ERC,Draft,Standards Track,ERC,2024-10-22,Grant Registry
+7795,ERC,Draft,Standards Track,ERC,2024-10-22,Wallet Call Token Capabilities
+7796,ERC,Review,Standards Track,ERC,2024-04-16,Conditional send transaction RPC
+7797,EIP,Stagnant,Standards Track,Core,2024-10-23,Double speed for hash_tree_root
+7799,EIP,Draft,Standards Track,Core,2024-10-29,System logs
+7801,EIP,Draft,Standards Track,Networking,2024-10-30,etha - Sharded Blocks Subprotocol
+7802,ERC,Draft,Standards Track,ERC,2024-10-30,Token With Mint/Burn Access Across Chains
+7803,ERC,Draft,Standards Track,ERC,2024-10-08,EIP-712 Extensions for Account Abstraction
+7804,EIP,Draft,Standards Track,Core,2024-10-31,Withdrawal Credential Update Request
+7805,EIP,Draft,Standards Track,Core,2024-11-01,Fork-choice enforced Inclusion Lists (FOCIL)
+7806,ERC,Draft,Standards Track,ERC,2024-11-02,Minimal intent-centric EOA smart account
+7807,EIP,Draft,Standards Track,Core,2024-10-28,SSZ execution blocks
+7808,EIP,Stagnant,Meta,,2024-11-04,Reserve Tx-Type Range for RIPs
+7811,ERC,Draft,Standards Track,ERC,2024-11-07,Wallet Asset Discovery
+7812,ERC,Review,Standards Track,ERC,2024-11-08,ZK Identity Registry
+7813,ERC,Final,Standards Track,ERC,2024-11-08,"Store, Table-Based Introspectable Storage"
+7818,ERC,Final,Standards Track,ERC,2024-11-13,Expirable ERC-20
+7819,EIP,Draft,Standards Track,Core,2024-11-18,SETDELEGATE instruction
+7820,ERC,Final,Standards Track,ERC,2024-11-19,Access Control Registry
+7821,ERC,Draft,Standards Track,ERC,2024-11-21,Minimal Batch Executor Interface
+7823,EIP,Final,Standards Track,Core,2024-11-11,Set upper bounds for MODEXP
+7825,EIP,Final,Standards Track,Core,2024-11-23,Transaction Gas Limit Cap
+7827,ERC,Draft,Standards Track,ERC,2024-11-07,JSON Contract with Value Version Control
+7828,ERC,Review,Standards Track,ERC,2024-11-27,Interoperable Names
+7829,ERC,Review,Standards Track,ERC,2024-11-29,Data Asset NFT
+7830,EIP,Stagnant,Standards Track,Core,2024-11-29,Contract size limit increase for EOF
+7831,ERC,Draft,Standards Track,ERC,2024-08-30,Multi-Chain Addressing
+7832,ERC,Review,Standards Track,ERC,2024-12-04,Sustainable collaborative NFT collections
+7833,EIP,Stagnant,Standards Track,Core,2024-12-06,Scheduled function calls
+7834,EIP,Review,Standards Track,Core,2024-12-06,Separate Metadata Section for EOF
+7836,ERC,Draft,Standards Track,ERC,2024-12-06,Wallet Call Preparation API
+7837,ERC,Final,Standards Track,ERC,2024-12-07,Diffusive Tokens
+7840,EIP,Final,Informational,,2024-12-12,Add blob schedule to EL config files
+7841,ERC,Draft,Standards Track,ERC,2024-12-12,Cross-chain Message Format and Mailbox
+7843,EIP,Last Call,Standards Track,Core,2024-12-06,SLOTNUM Opcode
+7845,ERC,Draft,Standards Track,ERC,2024-11-07,Universal Orchestrator RPC
+7846,ERC,Draft,Standards Track,ERC,2024-12-15,Wallet Connection API
+7847,ERC,Draft,Standards Track,ERC,2024-12-18,Social Media NFTs
+7848,EIP,Draft,Standards Track,Core,2024-12-22,On-chain upgrade signaling
+7851,EIP,Draft,Standards Track,Core,2024-12-27,Code-Controlled EOA Delegation
+7856,ERC,Draft,Standards Track,ERC,2025-01-01,Chain-Specific Payment Requests
+7857,ERC,Final,Standards Track,ERC,2025-01-02,AI Agents NFT with Private Metadata
+7858,ERC,Final,Standards Track,ERC,2024-01-04,Expirable NFTs and SBTs
+7861,ERC,Draft,Standards Track,ERC,2025-01-14,ERC-721 Verifiable Credential Extension
+7862,EIP,Draft,Standards Track,Core,2024-12-23,Delayed State Root
+7863,EIP,Draft,Standards Track,Core,2025-01-15,Block-level Warming
+7864,EIP,Draft,Standards Track,Core,2025-01-20,Ethereum state using a unified binary tree
+7866,ERC,Review,Standards Track,ERC,2025-01-22,Decentralised User Profiles
+7867,EIP,Stagnant,Standards Track,Interface,2025-01-17,Flow Control Wallet Call Capability
+7870,EIP,Living,Informational,,2025-01-26,Hardware and Bandwidth Recommendations
+7871,ERC,Draft,Standards Track,ERC,2024-01-29,Wallet Signing API
+7872,EIP,Review,Meta,,2025-01-30,Max blob flag for local builders
+7873,EIP,Stagnant,Standards Track,Core,2025-01-31,EOF - TXCREATE and InitcodeTransaction type
+7876,ERC,Draft,Standards Track,ERC,2025-01-03,Ethereum Network Configuration for DApps
+7877,EIP,Stagnant,Standards Track,Core,2025-01-31,Enhanced RETURN opcodes
+7878,ERC,Final,Standards Track,ERC,2025-02-01,Bequeathable Contracts
+7880,EIP,Review,Standards Track,Core,2025-02-08,EOF - EXTCODEADDRESS instruction
+7883,EIP,Final,Standards Track,Core,2025-02-11,ModExp Gas Cost Increase
+7884,ERC,Draft,Standards Track,ERC,2025-01-23,Operation Router
+7885,EIP,Draft,Standards Track,Core,2025-02-12,Precompile for NTT operations
+7886,EIP,Stagnant,Standards Track,Core,2025-02-18,Delayed execution
+7887,ERC,Draft,Standards Track,ERC,2025-02-18,Cancelation for ERC-7540 Tokenized Vaults
+7888,ERC,Draft,Standards Track,ERC,2025-02-18,Crosschain Broadcaster
+7889,EIP,Stagnant,Standards Track,Core,2025-02-20,Emit log on revert
+7891,ERC,Draft,Standards Track,ERC,2025-02-15,Splitting and Merging of NFTs
+7892,EIP,Final,Informational,,2025-02-28,Blob Parameter Only Hardforks
+7893,ERC,Final,Standards Track,ERC,2025-01-30,DeFi Protocol Solvency Proof Mechanism
+7895,ERC,Draft,Standards Track,ERC,2025-02-18,API for Hierarchical Accounts
+7896,EIP,Stagnant,Standards Track,Interface,2025-02-27,ABI attachment in `wallet_sendCalls`
+7897,ERC,Withdrawn,Standards Track,ERC,2024-04-15,Wallet-Linked Services for Smart Accounts
+7898,EIP,Stagnant,Standards Track,Core,2025-03-01,Uncouple execution payload from beacon block
+7902,ERC,Draft,Standards Track,ERC,2025-03-01,Wallet Capabilities for Account Abstraction
+7903,EIP,Stagnant,Standards Track,Core,2025-03-05,Remove Initcode Size Limit
+7904,EIP,Last Call,Informational,,2025-02-05,Compute Gas Cost Analysis
+7906,EIP,Draft,Standards Track,Core,2025-02-21,Transaction Assertions via State Diff Opcode
+7907,EIP,Draft,Standards Track,Core,2025-03-14,Meter Contract Code Size
+7908,ERC,Final,Standards Track,ERC,2025-03-07,HD wallet In Treasury Management
+7910,EIP,Final,Standards Track,Interface,2025-03-18,eth_config JSON-RPC Method
+7911,EIP,Draft,Standards Track,Core,2025-03-19,Scaling Ethereum with a Perceptron Tree ZKP
+7912,EIP,Stagnant,Standards Track,Core,2025-03-25,Pragmatic stack manipulation tools
+7913,ERC,Final,Standards Track,ERC,2025-03-21,Signature Verifiers
+7915,EIP,Stagnant,Standards Track,Core,2025-03-23,Adaptive mean reversion blob pricing
+7916,EIP,Review,Standards Track,Core,2025-03-24,SSZ ProgressiveList
+7917,EIP,Final,Standards Track,Core,2025-03-24,Deterministic proposer lookahead
+7918,EIP,Final,Standards Track,Core,2025-03-25,Blob base fee bounded by execution cost
+7919,EIP,Stagnant,Meta,,2025-03-26,Pureth Meta
+7920,ERC,Draft,Standards Track,ERC,2025-03-20,Composite EIP-712 Signatures
+7921,EIP,Stagnant,Standards Track,Core,2025-03-26,Skip `JUMPDEST` immediate argument check
+7922,EIP,Stagnant,Standards Track,Core,2025-03-24,Dynamic exit queue rate limit
+7923,EIP,Draft,Standards Track,Core,2025-03-27,"Linear, Page-Based Memory Costing"
+7927,EIP,Stagnant,Meta,,2025-03-28,History Expiry Meta
+7928,EIP,Last Call,Standards Track,Core,2025-03-31,Block-Level Access Lists
+7929,ERC,Draft,Standards Track,ERC,2025-04-01,PermaLink Asset Bound Token
+7930,ERC,Review,Standards Track,ERC,2025-02-02,Interoperable Addresses
+7932,EIP,Draft,Standards Track,Core,2025-04-12,Secondary Signature Algorithms
+7934,EIP,Final,Standards Track,Core,2025-04-16,RLP Execution Block Size Limit
+7935,EIP,Final,Informational,,2025-04-22,Set default gas limit to 60M
+7936,ERC,Review,Standards Track,ERC,2025-04-17,Versioned Proxy Contract Interface
+7937,EIP,Draft,Standards Track,Core,2025-04-23,EVM64 - 64-bit mode EVM opcodes
+7938,EIP,Stagnant,Informational,,2025-04-27,Exponential Gas Limit Increase
+7939,EIP,Final,Standards Track,Core,2025-04-28,Count leading zeros (CLZ) opcode
+7940,EIP,Draft,Informational,,2025-04-28,Ethereum Shah
+7942,EIP,Draft,Standards Track,Core,2025-04-30,Available Attestation
+7943,ERC,Final,Standards Track,ERC,2025-06-10,uRWA - Universal Real World Asset Interface
+7945,ERC,Final,Standards Track,ERC,2025-05-09,Confidential Transactions Supported Token
+7946,ERC,Draft,Standards Track,ERC,2025-05-10,Unidirectional Wallet Uplink aka UWULink
+7947,ERC,Draft,Standards Track,ERC,2025-05-07,Account Abstraction Recovery Interface
+7949,EIP,Draft,Informational,,2025-05-19,Genesis File Format
+7950,ERC,Final,Standards Track,ERC,2025-05-22,Encode chain id with transaction hash
+7951,EIP,Final,Standards Track,Core,2025-05-27,Precompile for secp256r1 Curve Support
+7954,EIP,Last Call,Standards Track,Core,2025-06-09,Increase Maximum Contract Size
+7955,ERC,Draft,Standards Track,ERC,2025-05-15,Permissionless CREATE2 Factory
+7956,EIP,Stagnant,Standards Track,Core,2025-05-24,Tx Ordering via Block-level Randomness
+7957,EIP,Stagnant,Standards Track,Core,2025-05-26,EVM64 - EOF support
+7958,EIP,Stagnant,Standards Track,Core,2025-05-26,EVM64 - Little endian opcodes
+7960,EIP,Draft,Standards Track,Core,2025-05-28,EOF - Extended types section
+7961,EIP,Draft,Standards Track,Core,2025-05-28,EVM64 - EOF code section
+7962,ERC,Review,Standards Track,ERC,2025-05-16,Key Hash Based Tokens
+7963,ERC,Review,Standards Track,ERC,2025-05-13,Oracle-Permissioned ERC-20 with ZK Proofs
+7964,ERC,Draft,Standards Track,ERC,2025-06-05,Crosschain EIP-712 Signatures
+7965,ERC,Draft,Standards Track,ERC,2025-06-06,Proof-based Broadcast in ERC-7786 Gateways
+7966,EIP,Draft,Standards Track,Interface,2025-06-11,eth_sendRawTransactionSync Method
+7968,ERC,Draft,Standards Track,ERC,2025-06-11,Owner-Authorized Token Transfer Protocol
+7969,ERC,Draft,Standards Track,ERC,2025-06-11,DomainKeys Identified Mail (DKIM) Registry
+7971,EIP,Draft,Standards Track,Core,2025-06-12,Hard Limits for Transient Storage
+7973,EIP,Draft,Standards Track,Core,2025-06-14,Warm Account Write Metering
+7975,EIP,Last Call,Standards Track,Networking,2025-06-16,eth/70 - Partial Block Receipt Lists
+7976,EIP,Last Call,Standards Track,Core,2025-06-18,Increase Calldata Floor Cost
+7979,EIP,Review,Standards Track,Core,2025-12-17,Call and Return Opcodes for the EVM
+7980,EIP,Withdrawn,Standards Track,Core,2025-06-25,Ed25519 transaction support
+7981,EIP,Last Call,Standards Track,Core,2024-12-27,Increase Access List Cost
+7984,ERC,Draft,Standards Track,ERC,2025-07-03,Confidential Fungible Token
+7985,ERC,Draft,Standards Track,ERC,2024-07-04,Gateway Attributes for Message Control
+7988,ERC,Draft,Standards Track,ERC,2025-07-08,Minimal Avatar Smart Wallet (MASW)
+7992,ERC,Draft,Standards Track,ERC,2025-07-23,Verifiable ML Model Inference (ZKML)
+7994,ERC,Final,Standards Track,ERC,2025-07-29,Purpose-Bound ERC-20 with Conditional Unlock
+7996,ERC,Draft,Standards Track,ERC,2025-07-07,Contract Feature Detection
+7997,EIP,Last Call,Standards Track,Core,2025-08-03,Deterministic Factory Contract
+7998,EIP,Draft,Standards Track,Core,2025-08-03,Turn `randao_reveal` into a VRF
+7999,EIP,Draft,Standards Track,Core,2025-08-04,Unified multidimensional fee market
+8000,ERC,Draft,Standards Track,ERC,2025-07-02,Operator contract for non delegated EOAs
+8001,ERC,Final,Standards Track,ERC,2025-08-02,Agent Coordination Framework
+8002,ERC,Draft,Standards Track,ERC,2025-08-07,Simplified Payment Verification Gateway
+8004,ERC,Draft,Standards Track,ERC,2025-08-13,Trustless Agents
+8007,EIP,Draft,Meta,,2025-08-21,Glamsterdam Gas Repricings
+8011,EIP,Draft,Standards Track,Core,2025-08-22,Multidimensional Gas Metering
+8012,EIP,Stagnant,Standards Track,Core,2025-08-22,Generalized consolidation requests
+8013,EIP,Draft,Standards Track,Core,2025-08-19,Static relative jumps and calls for the EVM
+8015,EIP,Draft,Standards Track,Core,2025-08-22,Remove `deposit` and `eth1data` fields
+8016,EIP,Draft,Standards Track,Core,2025-08-28,SSZ CompatibleUnion
+8017,ERC,Draft,Standards Track,ERC,2025-08-31,Payout Race
+8019,ERC,Review,Standards Track,ERC,2025-09-02,Minimal Wallet-Managed Auto-Login for SIWE
+8023,ERC,Draft,Standards Track,ERC,2025-09-16,Multi-step Contract Ownership
+8024,EIP,Last Call,Standards Track,Core,2025-08-16,"Backward Compatible SWAPN, DUPN, EXCHANGE"
+8025,EIP,Draft,Standards Track,Core,2025-09-17,Optional Execution Proofs
+8030,EIP,Draft,Standards Track,Core,2025-09-20,P256 algorithm support
+8032,EIP,Draft,Standards Track,Core,2025-09-29,Size-Based Storage Gas Pricing
+8033,ERC,Draft,Standards Track,ERC,2025-09-28,Agent Council Oracles
+8034,ERC,Final,Standards Track,ERC,2025-10-02,Referable NFT Royalties
+8037,EIP,Last Call,Standards Track,Core,2025-10-01,State Creation Gas Cost Increase
+8038,EIP,Last Call,Standards Track,Core,2025-10-03,State-Access Gas Cost Update
+8040,ERC,Draft,Standards Track,ERC,2025-09-06,ESG Tokenization Protocol
+8041,ERC,Draft,Standards Track,ERC,2025-10-11,Fixed-Supply Agent NFT Collections
+8042,ERC,Final,Standards Track,ERC,2025-10-11,Diamond Storage
+8045,EIP,Last Call,Standards Track,Core,2025-10-16,Exclude Slashed Validators from Proposing
+8046,EIP,Draft,Standards Track,Core,2025-10-16,Uniform price auction over inclusion lists
+8047,ERC,Draft,Standards Track,ERC,2025-10-15,Forensic Token (Forest)
+8048,ERC,Draft,Standards Track,ERC,2025-09-30,Onchain Metadata for Token Registries
+8049,ERC,Draft,Standards Track,ERC,2025-10-10,Contract-Level Onchain Metadata
+8051,EIP,Draft,Standards Track,Core,2025-10-15,Precompile for ML-DSA signature verification
+8052,EIP,Draft,Standards Track,Core,2025-10-17,Precompile for Falcon support
+8053,EIP,Draft,Standards Track,Core,2025-10-17,Milli-gas for High-precision Gas Metering
+8054,ERC,Draft,Standards Track,ERC,2025-10-10,Forkable ERC-20 Token
+8056,ERC,Draft,Standards Track,ERC,2025-10-20,Scaled UI Amount Extension for ERC-20 Tokens
+8057,EIP,Draft,Standards Track,Core,2025-10-20,Inter-Block Temporal Locality Gas Discounts
+8058,EIP,Draft,Standards Track,Core,2025-10-22,Contract Bytecode Deduplication Discount
+8059,EIP,Draft,Standards Track,Core,2025-10-22,Gas Units Rebase for High-precision Metering
+8061,EIP,Last Call,Standards Track,Core,2025-10-17,Increase Exit and Consolidation Churn
+8062,EIP,Draft,Standards Track,Core,2025-10-28,Add sweep withdrawal fee for 0x01 validators
+8063,ERC,Final,Standards Track,ERC,2025-10-28,Groups - Membership Tokens
+8065,ERC,Draft,Standards Track,ERC,2025-10-18,Zero Knowledge Token Wrapper
+8066,EIP,Last Call,Informational,,2025-10-29,Upgrade Mascots
+8068,EIP,Draft,Standards Track,Core,2025-10-28,Neutral effective balance design
+8070,EIP,Last Call,Standards Track,Networking,2025-10-29,eth/72 - Sparse Blobpool
+8071,EIP,Draft,Standards Track,Core,2025-10-29,Prevent using consolidations as withdrawals
+8072,EIP,Draft,Standards Track,Interface,2025-10-31,Transaction Inclusion Subscription
+8074,ERC,Draft,Standards Track,ERC,2025-10-30,Self-Describing Bytes via EIP-712 Selectors
+8075,EIP,Draft,Standards Track,Core,2025-10-02,Adaptive state cost to cap growth & scale L1
+8077,EIP,Draft,Standards Track,Networking,2025-11-07,eth/XX - announce transactions with nonce
+8079,EIP,Draft,Standards Track,Core,2025-11-13,Native rollups
+8080,EIP,Draft,Standards Track,Core,2025-11-13,Let exits use the consolidation queue
+8081,EIP,Draft,Meta,,2025-11-11,Hardfork Meta - Hegotá
+8084,ERC,Draft,Standards Track,ERC,2025-11-10,Zero-knowledge proof metadata
+8085,ERC,Draft,Standards Track,ERC,2025-11-15,Dual-Mode Fungible Tokens
+8086,ERC,Draft,Standards Track,ERC,2025-11-19,Privacy Token
+8092,ERC,Draft,Standards Track,ERC,2025-11-25,Associated Accounts
+8094,EIP,Draft,Standards Track,Networking,2025-11-29,eth/vhash - Blob-Aware Mempool
+8096,EIP,Draft,Standards Track,Core,2025-12-02,Increase Gas Cost of Point Evaluation
+8099,EIP,Draft,Standards Track,Core,2025-09-25,MEVless Protocol
+8100,ERC,Draft,Standards Track,ERC,2025-12-01,Representable Contract State
+8101,EIP,Draft,Standards Track,Core,2025-12-01,Payload Chunking with Chunk Access Lists
+8105,EIP,Draft,Standards Track,Core,2025-12-17,Universal Enshrined Encrypted Mempool
+8106,ERC,Draft,Standards Track,ERC,2025-12-16,RWA Event-based Compliance Framework
+8107,ERC,Review,Standards Track,ERC,2025-12-16,ENS Trust Registry for Agent Coordination
+8109,ERC,Withdrawn,Standards Track,ERC,2025-12-21,"Diamonds, Simplified"
+8110,ERC,Draft,Standards Track,ERC,2025-12-20,Domain Architecture for Diamonds
+8111,ERC,Review,Standards Track,ERC,2025-12-23,Bound Signatures
+8113,ERC,Draft,Standards Track,ERC,2025-12-25,Series Accounting for Incentivized Vaults
+8115,EIP,Draft,Standards Track,Core,2025-12-30,Batch priority fees at end of block
+8116,EIP,Draft,Standards Track,Core,2025-12-30,Replace cumulative receipt fields
+8117,ERC,Draft,Standards Track,ERC,2025-12-30,Anti-Poisoning Compact EVM Address Format
+8119,ERC,Draft,Standards Track,ERC,2025-01-06,Parameterized Storage Keys
+8120,EIP,Draft,Standards Track,Core,2026-01-07,MLOAD8 and CALLDATALOAD8 Opcodes
+8121,ERC,Draft,Standards Track,ERC,2025-12-12,Cross-Chain Function Calls via Hooks
+8122,ERC,Draft,Standards Track,ERC,2025-12-17,Minimal Agent Registry
+8123,EIP,Draft,Standards Track,Interface,2026-01-11,RPC Method for Transaction Gas Limit Cap
+8125,EIP,Draft,Standards Track,Core,2026-01-14,Temporary Contract Storage
+8126,ERC,Final,Standards Track,ERC,2026-01-15,AI Agent Verification
+8127,ERC,Draft,Standards Track,ERC,2026-01-14,Human Readable Token Identifiers
+8130,EIP,Draft,Standards Track,Core,2025-10-14,Keystore Accounts
+8131,EIP,Draft,Standards Track,Core,2025-01-21,Unified Transaction Content Floor
+8133,EIP,Review,Informational,,2026-01-23,Network Upgrade Naming
+8134,EIP,Final,Meta,,2026-01-24,Hardfork Meta - BPO1
+8135,EIP,Final,Meta,,2026-01-24,Hardfork Meta - BPO2
+8136,EIP,Last Call,Standards Track,Networking,2025-01-23,Cell-Level Deltas for Data Column Broadcast
+8138,EIP,Draft,Meta,,2026-01-27,Hardfork Meta - BPO3
+8141,EIP,Draft,Standards Track,Core,2026-01-29,Frame Transaction
+8142,EIP,Draft,Standards Track,Core,2026-01-29,Block-in-Blobs (BiB)
+8143,ERC,Draft,Standards Track,ERC,2025-12-15,Smart Credential Resolution Interface
+8146,EIP,Draft,Standards Track,Core,2026-02-03,Block Access List Sidecars
+8148,EIP,Draft,Standards Track,Core,2026-02-05,Custom sweep threshold for validators
+8149,EIP,Draft,Standards Track,Core,2026-02-06,Multi KZG Point Evaluation Precompile
+8151,EIP,Draft,Standards Track,Core,2026-02-09,Account Code Restricted ecRecover
+8152,ERC,Review,Standards Track,ERC,2026-01-18,Content-Addressable Logic Modules (CALM)
+8153,ERC,Final,Standards Track,ERC,2026-02-07,Facet-Based Diamonds
+8159,EIP,Last Call,Standards Track,Networking,2026-02-12,eth/71 - Block Access List Exchange
+8161,ERC,Final,Standards Track,ERC,2025-02-12,Transferable Tokenized Vault Requests
+8163,EIP,Review,Standards Track,Core,2026-02-13,Reserve `EXTENSION (0xae)` opcode
+8164,EIP,Draft,Standards Track,Core,2026-02-17,Native Key Delegation for EOAs
+8167,ERC,Final,Standards Track,ERC,2026-02-16,Modular Dispatch Proxies
+8173,EIP,Review,Informational,,2026-02-16,Foundations of EVM Control Flow
+8175,EIP,Draft,Standards Track,Core,2026-02-26,Composable Transaction
+8176,ERC,Draft,Standards Track,ERC,2026-02-26,Descriptor Attestations for ERC-7730
+8178,EIP,Draft,Standards Track,Core,2026-03-01,Binary SSZ Transport for the Engine API
+8179,ERC,Draft,Standards Track,ERC,2026-02-08,Blob Space Segments
+8180,ERC,Draft,Standards Track,ERC,2026-02-21,Blob Authenticated Messaging
+8182,EIP,Review,Standards Track,Core,2026-03-03,Private ETH and ERC-20 Transfers
+8183,ERC,Draft,Standards Track,ERC,2026-02-25,Agentic Commerce
+8184,EIP,Draft,Standards Track,Core,2026-03-04,LUCID encrypted mempool
+8187,ERC,Draft,Standards Track,ERC,2026-02-27,Token Puller
+8188,EIP,Draft,Standards Track,Core,2026-03-10,Last-Written Block for Accounts and Slots
+8189,EIP,Last Call,Standards Track,Networking,2026-03-06,snap/2 - BAL-Based State Healing
+8196,ERC,Final,Standards Track,ERC,2026-03-14,AI Agent Authenticated Wallet
+8197,EIP,Draft,Standards Track,Core,2025-03-04,Cryptographically Agile Transactions
+8198,EIP,Draft,Standards Track,Core,2026-03-17,Quick Slots
+8199,ERC,Draft,Standards Track,ERC,2026-03-19,Sandboxed Smart Wallet
+8200,EIP,Draft,Standards Track,Core,2026-03-21,EVMification
+8202,EIP,Draft,Standards Track,Core,2026-03-22,Scheme-Agile Transactions
+8205,EIP,Draft,Standards Track,Core,2026-03-26,Withdrawal credentials preregistration
+8209,EIP,Draft,Standards Track,Core,2026-04-01,Commit-Reveal Transaction Frames
+8217,ERC,Draft,Standards Track,ERC,2026-04-05,Agent NFT Identity Bindings
+8219,EIP,Draft,Standards Track,Core,2026-04-08,Checked Arithmetic Opcodes
+8222,EIP,Draft,Standards Track,Core,2026-04-09,Lean Staking
+8226,ERC,Draft,Standards Track,ERC,2026-04-12,Regulated Agent Mandate
+8237,EIP,Draft,Standards Track,Core,2026-04-22,Independent CL/EL Sync
+8243,EIP,Draft,Standards Track,Core,2026-05-01,Batching Attestations at Source
+8246,EIP,Last Call,Standards Track,Core,2026-05-01,Remove SELFDESTRUCT Burn
+8247,EIP,Draft,Standards Track,Core,2026-05-03,Ancestor-Indexed BALs
+8250,EIP,Draft,Standards Track,Core,2026-04-16,Keyed Nonces for Frame Transactions
+8252,EIP,Draft,Informational,,2026-04-24,Execution-Layer Reorg State Retention Window
+8253,EIP,Draft,Standards Track,Core,2026-05-05,Bump nonce of zero-nonce storage accounts
+8254,EIP,Draft,Standards Track,Core,2026-05-06,Cap Deposit Requests Per Block
+8255,ERC,Draft,Standards Track,ERC,2026-05-06,Expiring Token Approvals
+8256,EIP,Draft,Standards Track,Core,2026-05-06,Blob Streaming
+8257,ERC,Draft,Standards Track,ERC,2026-04-17,Agent Tool Registry
+8259,ERC,Draft,Standards Track,ERC,2026-05-07,AI Agent Identity & Threat Registry
+8261,EIP,Last Call,Informational,,2026-05-11,Gas Limit Schedule
+8262,ERC,Review,Standards Track,ERC,2026-04-07,Zero-Knowledge Compliance Oracle
+8266,EIP,Draft,Standards Track,Core,2026-05-15,Expiring Nonces for Frame Transactions
+8268,EIP,Draft,Standards Track,Core,2026-05-21,Storage Roots in Block Access Lists
+8272,EIP,Draft,Standards Track,Core,2026-05-15,Recent Roots for Frame Transactions
+8273,ERC,Draft,Standards Track,ERC,2025-05-26,Attestation-Gated Agentic Actions
+8279,EIP,Draft,Standards Track,Core,2026-05-23,Block Access List Byte Floor
+8282,EIP,Last Call,Standards Track,Core,2026-05-22,Builder Execution Requests
+8286,ERC,Draft,Standards Track,ERC,2026-06-04,Modular Accounts for Frame Transactions
+8288,EIP,Draft,Standards Track,Core,2026-06-03,In-mempool signature and proof aggregation
+8289,EIP,Draft,Standards Track,Core,2026-05-03,Multi-block Access List Warming
+8290,ERC,Draft,Standards Track,ERC,2026-06-05,Shielded Note Teleportation
+8292,EIP,Draft,Standards Track,Core,2026-06-07,Post-Quantum Attestation Aggregators
+8295,EIP,Draft,Standards Track,Core,2026-06-10,State Tiering by Periods
+8296,EIP,Draft,Standards Track,Core,2026-06-10,Fixed-Cutoff State Tiering
+8297,EIP,Draft,Standards Track,Core,2026-06-11,Partitioned Binary Tree
+8298,EIP,Draft,Standards Track,Core,2026-06-11,SETCODEFROM Code Reuse Instruction
+8304,EIP,Draft,Standards Track,Core,2026-06-17,Trustless log and transaction index
+8310,EIP,Draft,Standards Track,Interface,2026-06-19,Post-Quantum Keystore for Stateful Keys
+8311,EIP,Draft,Standards Track,Core,2026-06-20,Increase Calldata Floor Cost to 96
+8317,EIP,Draft,Standards Track,Interface,2026-06-25,Contract Storage Layout Descriptor Format
+8320,ERC,Draft,Standards Track,ERC,2026-07-03,Regulated Asset Claim
+8321,EIP,Draft,Standards Track,Core,2026-07-05,Hash-Chain RANDAO
+8325,ERC,Final,Standards Track,ERC,2026-07-04,Asset Anchor Registry
+8326,ERC,Final,Standards Track,ERC,2026-07-05,Canonical Document Bundle Anchor
+8327,ERC,Final,Standards Track,ERC,2026-07-05,Directional Transfer Domain Registry
+8328,ERC,Last Call,Standards Track,ERC,2026-07-05,Subject-Linked Compliance Event Log
+8329,ERC,Last Call,Standards Track,ERC,2026-07-05,Subject-Linked Impact Snapshot Log
+8330,ERC,Review,Standards Track,ERC,2026-07-05,Subject-Linked NAV Snapshot Oracle
+8333,EIP,Withdrawn,Standards Track,Core,2026-07-06,Align Checkpoint with Epoch Boundary Block
+8337,EIP,Draft,Standards Track,Core,2026-07-09,Validated EVM Code
+8347,EIP,Draft,Standards Track,Core,2026-07-23,Offline State Migration to the PBT
+8348,ERC,Draft,Standards Track,ERC,2026-07-23,Financial Lease
+8349,ERC,Draft,Standards Track,ERC,2026-07-25,Index-Based Multi-Facet Proxy
+8350,ERC,Draft,Standards Track,ERC,2026-07-14,Agent Memory State Registry
+8354,ERC,Draft,Standards Track,ERC,2026-07-16,Confidential Agent Policy Verdicts
+8355,EIP,Draft,Standards Track,Core,2026-07-30,Precompiles for ML-DSA Verification
+8357,EIP,Draft,Standards Track,Core,2026-07-30,EVM Verification Key Registry
+8358,EIP,Draft,Standards Track,Core,2026-07-26,Net Gas Metering for Account Changes
+8360,EIP,Draft,Standards Track,Core,2026-08-03,TCREATE Opcode
+8363,EIP,Draft,Standards Track,Core,2026-07-14,Tapered Issuance Burn
+8364,EIP,Draft,Standards Track,Core,2026-08-04,SSZ Compact Multiproofs
+8365,EIP,Draft,Standards Track,Core,2026-07-18,Disallow new 0x00 validators
+8368,EIP,Draft,Standards Track,Core,2026-08-05,CPSB Recalibration for New Gas Limit
+8369,EIP,Draft,Informational,,2026-08-05,VOPS Profiles for FOCIL Eligibility
+8371,EIP,Draft,Standards Track,Networking,2026-08-05,RowDAS - Distributed Blob Reconstruction
+8372,EIP,Draft,Standards Track,Core,2026-08-06,Normalized state gas limit
+8374,EIP,Draft,Standards Track,Core,2026-08-06,Persist Warm Access Sets Across Reverts
+8376,ERC,Draft,Standards Track,ERC,2026-08-07,Token Launch Abuse Detection and Remediation
+8377,ERC,Draft,Standards Track,ERC,2026-08-05,Reference-Relative Slippage Bounds
+8379,EIP,Draft,Standards Track,Core,2026-08-06,Top-up Sync
+8383,EIP,Draft,Standards Track,Networking,2026-08-17,Reduce CL Block Retention Window
+8390,EIP,Draft,Standards Track,Core,2026-08-22,Remove the Sync Committee
+8397,EIP,Draft,Standards Track,Core,2026-08-26,Frame Authenticator Signatures
+8408,EIP,Draft,Standards Track,Networking,2026-09-01,eth/73 - Indexed Cell Requests
+8410,ERC,Draft,Standards Track,ERC,2026-09-04,Portable Execution Plan Artifact
+8411,EIP,Draft,Standards Track,Networking,2026-09-05,Fast Execution Payload Broadcast
+8425,EIP,Draft,Standards Track,Core,2026-09-27,Quantum Freeze and Account Recovery
+8426,ERC,Draft,Standards Track,ERC,2026-08-07,Wallet Pass Extension for NFTs
+8433,EIP,Draft,Standards Track,Core,2026-09-28,Retire 0x00 Validators
+8435,EIP,Draft,Standards Track,Core,2026-10-04,Last-Written Block in PBT Leaves
+8436,ERC,Draft,Standards Track,ERC,2026-10-04,Agent Collective Decision Framework
+8441,ERC,Draft,Standards Track,ERC,2026-08-28,Hybrid post-quantum stealth address scheme
+8444,ERC,Draft,Standards Track,ERC,2026-10-12,Agentic Resource Discovery (ARD) Onchain
+8449,EIP,Draft,Standards Track,Core,2026-10-19,Engine API Proposal Lookahead
+8450,EIP,Draft,Standards Track,Core,2026-10-15,Post-Quantum Consensus Key Registry
+8457,EIP,Draft,Informational,,2026-07-06,Batched KZG Point Evaluation via EIP-2537
